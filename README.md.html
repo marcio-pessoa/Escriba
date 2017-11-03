@@ -1,0 +1,274 @@
+<meta charset="utf-8">
+<meta lang="en" charset="utf-8">
+<!README.md, Escriba Mark I - Escriba, Readme file>
+
+                            **Escriba - Mark I**
+                                  **Ploter**
+                                Márcio Pessoa
+                                  2017-09-16
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eu est sit amet nulla consectetur ultrices. Morbi a turpis euismod, porttitor massa a, venenatis nunc. Vestibulum congue sollicitudin odio, at consectetur ante varius suscipit. Duis dapibus odio justo, eget vulputate dolor pharetra et. Suspendisse rhoncus eleifend diam vitae mattis. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nam non nibh diam. Integer egestas commodo tortor, at consectetur massa congue sit amet. Nullam ultricies eros quis mi lobortis, sit amet congue ante ullamcorper. Duis tempor et turpis sit amet viverra. Nunc et quam enim. Praesent a diam vel leo laoreet malesuada. In pretium hendrerit lectus dignissim facilisis. Cras sit amet metus augue.
+
+Aliquam neque orci, commodo eu suscipit sit amet, malesuada et lorem. Suspendisse eu libero a metus ultricies molestie. Nulla sollicitudin massa a lacus fringilla sagittis eu eu magna. Aenean ullamcorper eros purus, eget commodo urna egestas eu. Nam lacus est, commodo quis imperdiet pretium, tristique ut ex. Sed nisi libero, tincidunt ut ullamcorper in, faucibus a neque. Praesent turpis velit, sollicitudin eget gravida et, rhoncus quis lectus. Quisque congue, nisl in viverra convallis, ex ligula eleifend lectus, eu interdum odio neque eget massa. Nam pretium, dui vel efficitur pulvinar, lectus dui consequat libero, a consequat nunc massa at est. Donec et tincidunt enim. Ut ultrices elit vel magna convallis viverra. In ex tellus, aliquet quis tortor eget, maximus faucibus massa. Praesent sed tortor bibendum nunc ornare volutpat posuere eu arcu. Donec tempor purus vitae turpis posuere efficitur. Duis purus dolor, venenatis ut odio vel, pellentesque tempus ex. Fusce congue, orci sit amet dictum blandit, quam nibh sagittis neque, eget viverra metus nulla a nunc.
+
+# Mechanics
+![Figure [Escriba]: Mechanical design](Mechanics/Escriba.svg width="90%" border="0")
+
+## Maximum travel
+- x axis: 394,20 mm
+- y axis: 213.15 mm
+- z axis: 0,0 mm
+
+## Belt
+![Figure [gt2belt]: GT2 belt](Documents/gt2tooth.jpg width="40%" border="0")
+Fusce congue, orci sit amet dictum blandit, quam nibh sagittis neque, eget viverra metus nulla a nunc.
+
+## Noise reduction
+
+# Electronics
+
+## Arduino
+[Arduino Uno R3][Arduino_Uno]
+### Diagram
+Be happy.
+********************************************************************
+*                                      .-----.                     *
+*         .----[PWR]-------------------| USB |--.                  *
+*         |                            '-----'  |                  *
+*         |         GND/RST2  [ ][ ]            |                  *
+*         |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5             *
+*         |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4             *
+*         |                             AREF[ ] |                  *
+*         |                             AREF[ ] |                  *
+*         |                              GND[ ] |                  *
+*         | [ ]NC                     SCK/13[ ] |   B5             *
+*         | [ ]v.ref                 MISO/12[ ] |   .              *
+*         | [ ]RST                   MOSI/11[ ]~|   .              *
+*         | [ ]3V3    +---+               10[ ]~|   .              *
+*         | [ ]5v     | A |                9[ ]~|   .              *
+*         | [ ]GND   -| R |-               8[ ] |   B0             *
+*         | [ ]GND   -| D |-                    |                  *
+*         | [ ]Vin   -| U |-               7[ ] |   D7             *
+*         |          -| I |-               6[ ]~|   .              *
+*         | [ ]A0    -| N |-               5[ ]~|   .              *
+*         | [ ]A1    -| O |-               4[ ] |   .              *
+*         | [ ]A2     +---+           INT1/3[ ]~|   .              *
+*         | [ ]A3                     INT0/2[ ] |   .              *
+*         | [ ]A4/SDA  RST SCK MISO     TX>1[ ] |   .              *
+*         | [ ]A5/SCL  [ ] [ ] [ ]      RX<0[ ] |   D0             *
+*         |            [ ] [ ] [ ]              |                  *
+*         '--.                         .--------'                  *
+*             \_______________________/                            *
+*                                                                  *
+********************************************************************
+[Figure [pins]: Arduino Uno[^busyducks]]
+
+### Pin designation
+Table [pins] shows pin designation.
+ id | pin |   type    | direction |               description                
+----|-----|-----------|-----------|--------------------------------------------
+  0 |   0 | digital   | input     | Serial communication                     
+  1 |   1 | digital   | output    | Serial communication                     
+  2 |   0 | interrupt | input     | Endstop sensor                           
+  3 |   3 | digital   | output    | Stepper 1 (activation/speed control)     
+  4 |   4 | digital   | output    | Stepper drive                            
+  5 |   5 | digital   | output    | Stepper 2 (activation/speed control)     
+  6 |   6 | digital   | output    | Stepper 2 (activation/speed control)     
+  7 |   7 | digital   | output    | Stepper drive                            
+  8 |   8 | digital   | output    | Stepper drive                            
+  9 |   9 | PWM       | output    | Servo motor (z axis)                     
+ 10 |  10 | PWM       | output    | Fan speed control                        
+ 11 |  11 | digital   | output    | Stepper 1 (activation/speed control)     
+ 12 |  12 | digital   | output    | Stepper drive                            
+ 13 |  13 | digital   | output    | Status LED                               
+ 14 |   0 | analog    | input     | Temperature sensor (CPU)                 
+ 15 |   1 | analog    | input     | Temperature sensor (step motor driver)   
+ 16 |   2 | digital   | input     | Endstop switch (x axis minimum)          
+ 17 |   3 | digital   | input     | Endstop switch (x axis maximum)          
+ 18 |   4 | digital   | input     | Endstop switch (y axis minimum)          
+ 19 |   5 | digital   | input     | Endstop switch (y axis maximum)          
+[Table [pins]: Arduino Uno pin designation.]
+
+## CNC/Stepper Motor Shield
+[CNC/Stepper Motor Shield](Documents/cnc-3axis-shield.pdf)
+
+## Step motors
+![Figure [JK42HS34_techspecs]: Technical specifications](Documents/JK42HS34-1334AC_techspecs.jpg width="50%" border="0")
+Some caracteristics about NEMA 17 step motor:
+- Model: JK42HS34-1334AC
+- Phase: 2
+- Step angle: 1.8 degrees (200 steps/revolution)
+- Rated voltage: 2.8 V
+- Current/Phase: 1.33 A
+- Resistance/Phase: 2.1 Ω
+- Inductance/Phase: 2.5 mH
+- Holding Torque: 22 N·cm (2.6 kg·cm)
+- Outlet: 4 wires
+- Shaft: 5 mm single flat
+- Size (metric): 4.2 cm x 4.2 cm x 3.4 cm
+- Size (imperial): 1.65" x 1.65" x 1.34"
+
+![Figure [JK42HS34_photo]: NEMA 17 step motor](Documents/JK42HS34-1334AC_photo.jpg width="50%" border="0")
+
+# Software
+Bla, bla...
+
+## Grbl
+> "Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. It will run on a vanilla Arduino (Duemillanove/Uno) as long as it sports an Atmega 328. 
+> 
+> The controller is written in highly optimized C utilizing every clever feature of the AVR-chips to achieve precise timing and asynchronous operation. It is able to maintain up to 30kHz of stable, jitter free control pulses.
+> 
+> It accepts standards-compliant g-code and has been tested with the output of several CAM tools with no problems. Arcs, circles and helical motion are fully supported, as well as, all other primary g-code commands. Macro functions, variables, and most canned cycles are not supported, but we think GUIs can do a much better job at translating them into straight g-code anyhow.
+> 
+> Grbl includes full acceleration management with look ahead. That means the controller will look up to 18 motions into the future and plan its velocities ahead to deliver smooth acceleration and jerk-free cornering."
+>                                               -- From: [Grbl][Grbl] web page.
+
+## G-Code
+List of Supported G-Codes in [Grbl][Grbl] v0.9 Master:
+Non-Modal Commands:
+:  G4, G10L2, G10L20, G28, G30, G28.1, G30.1, G53, G92, G92.1
+Motion Modes:
+:  G0, G1, G2, G3, G38.2, G38.3, G38.4, G38.5, G80
+Feed Rate Modes: 
+:  G93, G94
+Unit Modes: 
+:  G20, G21
+Distance Modes: 
+:  G90, G91
+Arc IJK Distance Modes: 
+:  G91.1
+Plane Select Modes: 
+:  G17, G18, G19
+Tool Length Offset Modes: 
+:  G43.1, G49
+Cutter Compensation Modes: 
+:  G40
+Coordinate System Modes: 
+:  G54, G55, G56, G57, G58, G59
+Control Modes: 
+:  G61
+Program Flow: 
+:  M0, M1, M2, M30*
+Coolant Control: 
+:  M7*, M8, M9
+Spindle Control: 
+:  M3, M4, M5
+Valid Non-Command Words: 
+:  F, I, J, K, L, N, P, R, S, T, X, Y, Z
+
+## Settings
+Some initial ajusts are necessary to draw nicely. View firmware settings using a terminal software.
+Default serial baudrate is 115200 bps.
+
+Command:
+~~~~ gcode
+$$
+~~~~
+
+
+### Steps to milimeters
+Grbl default:
+```
+$100=250.000 (x, step/mm)
+$101=250.000 (y, step/mm)
+```
+
+Math:
+```
+Engines 200 steps
+Pulley: 20 tooths
+Belt: GT2 (2mm pitch)
+So:
+  ...
+x = 80
+```
+
+Command:
+~~~~ gcode
+$100=80
+$101=80
+~~~~
+
+### Rate
+Grbl default:
+```
+$110=500.000 (x max rate, mm/min)
+$111=500.000 (y max rate, mm/min)
+```
+
+Command:
+~~~~ gcode
+$110=5000.000
+$111=5000.000
+~~~~
+
+### Acceleration
+Grbl default:
+```
+$120=10.000 (x accel, mm/sec^2)
+$121=10.000 (y accel, mm/sec^2)
+```
+
+Command:
+~~~~ gcode
+$120=1000.000
+$121=1000.000
+~~~~
+  
+### Maximum travel
+Grbl default:
+```
+$130=200.000 (x max travel, mm)
+$131=200.000 (y max travel, mm)
+$132=200.000 (z max travel, mm)
+```
+
+Math:
+```No-format
+There is no math, just measure the distance that pen can travel
+```
+
+Command:
+~~~~ gcode
+$130=375.428
+$131=203.000
+$132=420.000
+~~~~
+
+### ?
+Grbl default:
+```
+?
+```
+Command:
+~~~~ gcode
+$N0=M3S90
+~~~~
+
+### Calibration
+Use Calibration A4 paper to proced.
+
+# Tools
+
+## Felt tip pen
+- Draw
+
+## Dip pen
+- Write
+
+## Laser
+![Figure [JK42HS34_techspecs]: Technical specifications](Documents/Laser_445nm_2500mW.jpg width="50%" border="0")
+
+- Cut
+  - Paper
+  - Cardboard
+  - Acrilic
+
+---
+
+[^busyducks]: Diagram by: <http://busyducks.com/ascii-art-arduinos>
+
+[Grbl]: https://github.com/grbl/grbl
+[Arduino_Uno]: https://www.arduino.cc/en/Main/arduinoBoardUno/#techspecs
+
+<!-- Markdeep: --><style class="fallback">body{white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="http://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
