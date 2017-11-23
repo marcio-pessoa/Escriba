@@ -1,25 +1,15 @@
-CHANGELOG, Escriba Mark I, Change log file
+# Change log
+All notable changes to this project will be documented in this file.
 
-2017-08-19
-        * Starting up using firmware grbl-servo
-          https://github.com/misan/grbl-servo
-        * Ending up firmware made by myself.
+## [0.9j] - 2017-09-12
+### Changed
+- Enable: CoreXY.
 
-2017-03-30
-        * Added some G-code example files.
-        * Added NRDP directory structure.
+### Changed
+- Set: HOMING_CYCLE_0 to support COREXY.
+- Set: SPINDLE_MAX_RPM to low rotation (tool speed).
+- Disabled: HOMING_CYCLE_1 to support COREXY.
 
-2017-03-06
-        * Fixed G1 command to move between hypotenuse points.
-
-2017-02-28
-        * Added command
-          * M0
-          * M17
-          * M18
-
-2017-02-03
-        * Created test files.
-
-2016-07-21
-        * Starting project...
+## [] - 2016-08-09
+### Added
+- Project definition.

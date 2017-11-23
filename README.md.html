@@ -19,9 +19,21 @@ Aliquam neque orci, commodo eu suscipit sit amet, malesuada et lorem. Suspendiss
 - y axis: 213.15 mm
 - z axis: 0,0 mm
 
+### SHF8
+![Figure [gt2belt]: SHF8](Documents/SHF.svg width="40%" border="0")
+[#SHF8] technical specifications:
+- W: 43 mm
+- B: 30 mm
+- L: 10 mm
+- T: 5 mm
+- G: 20 mm
+- F: 24 mm
+- S: 5.5 mm
+- Shaft: 8 mm
+
 ## Belt
 ![Figure [gt2belt]: GT2 belt](Documents/gt2tooth.jpg width="40%" border="0")
-Fusce congue, orci sit amet dictum blandit, quam nibh sagittis neque, eget viverra metus nulla a nunc.
+[#Belt] technical specifications:
 
 ## Noise reduction
 
@@ -38,7 +50,6 @@ Be happy.
 *         |         GND/RST2  [ ][ ]            |                  *
 *         |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5             *
 *         |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4             *
-*         |                             AREF[ ] |                  *
 *         |                             AREF[ ] |                  *
 *         |                              GND[ ] |                  *
 *         | [ ]NC                     SCK/13[ ] |   B5             *
@@ -67,29 +78,30 @@ Be happy.
 Table [pins] shows pin designation.
  id | pin |   type    | direction |               description                
 ----|-----|-----------|-----------|--------------------------------------------
-  0 |   0 | digital   | input     | Serial communication                     
-  1 |   1 | digital   | output    | Serial communication                     
-  2 |   0 | interrupt | input     | Endstop sensor                           
-  3 |   3 | digital   | output    | Stepper 1 (activation/speed control)     
-  4 |   4 | digital   | output    | Stepper drive                            
-  5 |   5 | digital   | output    | Stepper 2 (activation/speed control)     
-  6 |   6 | digital   | output    | Stepper 2 (activation/speed control)     
-  7 |   7 | digital   | output    | Stepper drive                            
-  8 |   8 | digital   | output    | Stepper drive                            
-  9 |   9 | PWM       | output    | Servo motor (z axis)                     
- 10 |  10 | PWM       | output    | Fan speed control                        
- 11 |  11 | digital   | output    | Stepper 1 (activation/speed control)     
- 12 |  12 | digital   | output    | Stepper drive                            
- 13 |  13 | digital   | output    | Status LED                               
- 14 |   0 | analog    | input     | Temperature sensor (CPU)                 
- 15 |   1 | analog    | input     | Temperature sensor (step motor driver)   
- 16 |   2 | digital   | input     | Endstop switch (x axis minimum)          
- 17 |   3 | digital   | input     | Endstop switch (x axis maximum)          
- 18 |   4 | digital   | input     | Endstop switch (y axis minimum)          
- 19 |   5 | digital   | input     | Endstop switch (y axis maximum)          
+  0 |   0 | digital   | input     | Serial communication
+  1 |   1 | digital   | output    | Serial communication
+  2 |   0 | digital   | output    | Step Pulse x-axis
+  3 |   3 | digital   | output    | Step Pulse y-axis
+  4 |   4 | digital   | output    | Step Pulse z-axis                        
+  5 |   5 | digital   | output    | Direction x-axis
+  6 |   6 | digital   | output    | Direction y-axis
+  7 |   7 | digital   | output    | Direction z-axis
+  8 |   8 | digital   | output    | Stepper Enable/Disable
+  9 |   9 | digital   | input     | Limit x-axis
+ 10 |  10 | digital   | input     | Limit y-axis
+ 11 |  11 | digital   | input     | Limit z-axis
+ 12 |  12 | digital   | output    | Spindle Enable
+ 13 |  13 | digital   | output    | Spindle Direction
+ 14 |   0 | digital   | input     | Reset/Abort
+ 15 |   1 | digital   | input     | Feed Hold
+ 16 |   2 | digital   | input     | Cycle Start/Resume
+ 17 |   3 | digital   | output    | Coolant Enable
+ 18 |   4 | digital   | input     | (not used/reserved)
+ 19 |   5 | digital   | input     | Probe
 [Table [pins]: Arduino Uno pin designation.]
 
 ## CNC/Stepper Motor Shield
+![Figure [CNC_Shield_v3]: PCB description](Documents/CNC_Stepper_Motor_Shield_v3.00_Draft.jpg width="70%" border="0")
 [CNC/Stepper Motor Shield](Documents/cnc-3axis-shield.pdf)
 
 ## Step motors
@@ -123,7 +135,10 @@ Bla, bla...
 > Grbl includes full acceleration management with look ahead. That means the controller will look up to 18 motions into the future and plan its velocities ahead to deliver smooth acceleration and jerk-free cornering."
 >                                               -- From: [Grbl][Grbl] web page.
 
-## G-Code
+### Configuring
+[Configuring][Grbl_configuring]
+
+### G-Code
 List of Supported G-Codes in [Grbl][Grbl] v0.9 Master:
 Non-Modal Commands:
 :  G4, G10L2, G10L20, G28, G30, G28.1, G30.1, G53, G92, G92.1
@@ -156,98 +171,6 @@ Spindle Control:
 Valid Non-Command Words: 
 :  F, I, J, K, L, N, P, R, S, T, X, Y, Z
 
-## Settings
-Some initial ajusts are necessary to draw nicely. View firmware settings using a terminal software.
-Default serial baudrate is 115200 bps.
-
-Command:
-~~~~ gcode
-$$
-~~~~
-
-
-### Steps to milimeters
-Grbl default:
-```
-$100=250.000 (x, step/mm)
-$101=250.000 (y, step/mm)
-```
-
-Math:
-```
-Engines 200 steps
-Pulley: 20 tooths
-Belt: GT2 (2mm pitch)
-So:
-  ...
-x = 80
-```
-
-Command:
-~~~~ gcode
-$100=80
-$101=80
-~~~~
-
-### Rate
-Grbl default:
-```
-$110=500.000 (x max rate, mm/min)
-$111=500.000 (y max rate, mm/min)
-```
-
-Command:
-~~~~ gcode
-$110=5000.000
-$111=5000.000
-~~~~
-
-### Acceleration
-Grbl default:
-```
-$120=10.000 (x accel, mm/sec^2)
-$121=10.000 (y accel, mm/sec^2)
-```
-
-Command:
-~~~~ gcode
-$120=1000.000
-$121=1000.000
-~~~~
-  
-### Maximum travel
-Grbl default:
-```
-$130=200.000 (x max travel, mm)
-$131=200.000 (y max travel, mm)
-$132=200.000 (z max travel, mm)
-```
-
-Math:
-```No-format
-There is no math, just measure the distance that pen can travel
-```
-
-Command:
-~~~~ gcode
-$130=375.428
-$131=203.000
-$132=420.000
-~~~~
-
-### ?
-Grbl default:
-```
-?
-```
-Command:
-~~~~ gcode
-$N0=M3S90
-~~~~
-
-### Calibration
-Use Calibration A4 paper to proced.
-
 # Tools
 
 ## Felt tip pen
@@ -268,7 +191,8 @@ Use Calibration A4 paper to proced.
 
 [^busyducks]: Diagram by: <http://busyducks.com/ascii-art-arduinos>
 
-[Grbl]: https://github.com/grbl/grbl
 [Arduino_Uno]: https://www.arduino.cc/en/Main/arduinoBoardUno/#techspecs
+[Grbl]: https://github.com/grbl/grbl
+[Grbl_configuring]: https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.9
 
 <!-- Markdeep: --><style class="fallback">body{white-space:pre;font-family:monospace}</style><script src="markdeep.min.js"></script><script src="http://casual-effects.com/markdeep/latest/markdeep.min.js"></script>
