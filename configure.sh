@@ -1,13 +1,13 @@
 #!/bin/sh
-# 
+#
 # configure.sh
-# 
+#
 # Description:
 #   Automatic configuration script.
-# 
+#
 # Author: Márcio Pessoa <marcio.pessoa@sciemon.com>
 # Contributors: none
-# 
+#
 # Change log:
 # 2017-09-12
 #         Tested on: Grbl 0.9j.
@@ -15,9 +15,6 @@
 #         Change: HOMING_CYCLE_0 to support COREXY.
 #         Disable: HOMING_CYCLE_1 to support COREXY.
 #         Change: SPINDLE_MAX_RPM to low rotation (tool speed).
-#
-# 2017-09-11
-#         Bug fix: Minor code corrections.
 #
 # 2016-08-09
 #         Project definition.
@@ -42,15 +39,20 @@ check_return() {
 
 get_updates() {
   file=$1
-  echo "Getting firmware updates to $WORKDIR $(git show-branch)... \c"
+  echo "Restoring original state to:"
+  echo "    $file... \c"
   git checkout -- "$file"  # Restore original file
-  git merge  # Get updates from Github
+  check_return $?
+  echo "Getting firmware updates to $WORKDIR $(git show-branch)... \c"
+  git pull  # Get updates from Github
 }
+
+date +'Started at: %Y-%m-%d %H:%M:%S'
 
 unlink "$ARDUINO_PATH" >/dev/null 2>&1
 ln -s "$LIBRARY_PATH" "$ARDUINO_PATH"
 
-cd $WORKDIR
+cd $WORKDIR || exit
 FILE="config.h"
 
 get_updates $FILE
@@ -78,10 +80,9 @@ echo "        Changing SPINDLE_MAX_RPM to low rotation (tool speed)... \c"
 sed -i -e 's/^#define SPINDLE_MAX_RPM 1000.0/#define SPINDLE_MAX_RPM 90.0/' "$FILE"
 check_return $?
 
-echo "Changes applied."
-
 # Invoke xc
-echo "Process: xC (Axes Controller): \c"
+echo "Starting xC (Axes Controller)..."
+xc -v
 case "$action" in
   'verify')
     xc "$action" --id escriba --verbosity=3
