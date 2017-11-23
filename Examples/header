@@ -1,2 +1,4 @@
 G90
-M80
+
+$$  ; View Grbl settings
+?   ; Current status
