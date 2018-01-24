@@ -1,48 +1,27 @@
-# Bill of material
+# Marlon - Mark I
+
+## Bill of material
 
 | Quant | Description     | ID            | Bought     | Delivered  | Unit | Charge    | Taxes (USD)      | Cost (USD) |
 |-------|-----------------|---------------|------------|------------|------|-----------|------------------|------------|
 |     1 | Arduino_Uno_R3  | 1461804416006 | 2016-10-09 | 2016-11-29 | each |  LUX 7.82 | 0.00 (IOF 6.38%) |            |
-|     1 | CNC_Shield      | 112401201692  | 2017-08-17 | 2018-01-23 | each |  USD 7.40 |                  |            |
-|     4 | GT-2_pulley     | 131648026845  | 2016-07-21 | 2016-09-dd | each | USD 10.98 |                  |            |
-|     1 |                 |               | 201a-mm-aa | 201a-mm-aa | each |           |                  |            |
+|     1 | CNC_Shield      | 112401201692  | 2017-08-17 | 2018-01-23 | each |  USD 7.40 | 0.00 (IOF 6.38%) |            |
+|     4 | GT-2_20N_pulley | 131648026845  | 2016-07-21 | 2016-09-dd | each | USD 10.98 | 0.00 (IOF 6.38%) |            |
+|     1 | GT-2_20T_pulley | 282052333232  | 2016-08-09 | 2016-09-1d | each |  USD 2.35 | 0.00 (IOF 6.38%) |            |
+|  1000 | Chromed_rod     | 322133935331  | 2016-08-02 | 2016-10-10 | mm   | USD 11.56 | 0.00 (IOF 6.38%) |            |
+|  1000 | Chromed_rod     | 322133935331  | 2016-10-19 | 2016-11-17 | mm   | USD 11.58 | 0.00 (IOF 6.38%) |            |
+|     8 | SC8VUU          | 110723291022  | 2016-08-09 | 2016-09-20 | each | USD 18.04 | 0.00 (IOF 6.38%) |            |
+|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
+|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
+|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
+|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
+|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
 
 
-[#1pcs Choose from 20T/16T 3/5mm Diameter Bore GT2 Idler Pulley For 3D Printer]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Aug 9, 2016 at 4:58 PM
-  - Delivered: 2016-09-1X
-  - ID: 282052333232
-  - Charge: **USD 2.35**
 
-[#8mm x 1 meter Precision Chromed Rod for RepRap Chrome Prusa 3D Printer CNC O1]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Aug 2, 2016 at 12:49 PM
-  - Delivered: 2016-10-10
-  - ID: 322133935331
-  - Charge: **USD 11.56** (23.12-11.56)
 
-[#8mm x 1 meter Precision Chromed Rod for RepRap Chrome Prusa 3D Printer CNC O1]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Wed, Oct 19, 2016 at 7:36 AM
-  - Delivered: 2016-11-17
-  - ID: 322133935331
-  - Charge: **USD 11.58**
 
-[#SC8VUU]: (mechanical)
-: Detailed specifications in the SC8VUU section, purchase information:
-  - Quantity: 8
-  - Unit: each
-  - Bought: Tue, Aug 9, 2016 at 4:42 PM
-  - Delivered: 2016-09-20
-  - ID: 110723291022
-  - Charge: **USD 18.04**
+
 
 [#9g Digital Micro Servo Motor Metal Gear For RC Helicopter Car Airplane HR]: (electronic)
 : Detailed specifications in the Frame section, purchase information:
@@ -377,5 +356,5 @@
   - Delivered: -
   - Charge: **USD 0.00**
 
-## Amount
+### Amount
 Total cost: $301.21
