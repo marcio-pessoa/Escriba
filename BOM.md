@@ -2,359 +2,54 @@
 
 ## Bill of materials
 
-| Quant | Description     | ID            | Bought     | Delivered  | Unit | Charge    | Taxes (USD)      | Cost (USD) |
-|-------|-----------------|---------------|------------|------------|------|-----------|------------------|------------|
-|     1 | Arduino_Uno_R3  | 1461804416006 | 2016-10-09 | 2016-11-29 | each |  LUX 7.82 | 0.00 (IOF 6.38%) |            |
-|     1 | CNC_Shield      | 112401201692  | 2017-08-17 | 2018-01-23 | each |  USD 7.40 | 0.00 (IOF 6.38%) |            |
-|     4 | GT-2_20N_pulley | 131648026845  | 2016-07-21 | 2016-09-dd | each | USD 10.98 | 0.00 (IOF 6.38%) |            |
-|     1 | GT-2_20T_pulley | 282052333232  | 2016-08-09 | 2016-09-1d | each |  USD 2.35 | 0.00 (IOF 6.38%) |            |
-|  1000 | Chromed_rod     | 322133935331  | 2016-08-02 | 2016-10-10 | mm   | USD 11.56 | 0.00 (IOF 6.38%) |            |
-|  1000 | Chromed_rod     | 322133935331  | 2016-10-19 | 2016-11-17 | mm   | USD 11.58 | 0.00 (IOF 6.38%) |            |
-|     8 | SC8VUU          | 110723291022  | 2016-08-09 | 2016-09-20 | each | USD 18.04 | 0.00 (IOF 6.38%) |            |
-|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
-|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
-|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
-|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
-|     1 |                 |               | 201a-mm-aa | 201a-mm-dd | each |           | 0.00 (IOF 6.38%) |            |
-
-
-
-
-
-
-
-[#9g Digital Micro Servo Motor Metal Gear For RC Helicopter Car Airplane HR]: (electronic)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Fri, Sep 9, 2016 at 1:38 PM
-  - Delivered: 2016-10-04
-  - ID: 252433665853
-  - Charge: **USD 3.56**
-
-[#3m GT2 Timing Belt & 2Pcs Timing Pulley 16T Bore 5mm 3D Printer RepRap Prusa]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Fri, Sep 9, 2016 at 1:48 PM
-  - Delivered: 2016-10-25
-  - ID: 272234427429
-  - Charge: **USD 7.68**
-
-[#2 x 1.8 Degree 42mm NEMA17 2 Phase Stepper Motor For 3D Printer or CNC 0.22NM]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Sun, Sep 25, 2016 at 5:38 PM
-  - Delivered: 2016-10-28
-  - ID: 331871059726
-  - Charge: **USD 10.38**
-
-[#2 x 1.8 Degree 42mm NEMA17 2 Phase Stepper Motor For 3D Printer or CNC 0.22NM]: (electronic)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Sat, Oct 29, 2016 at 9:57 PM
-  - Delivered: 2017-mm-dd
-  - ID: 331871062088
-  - Charge: **USD 10.38**
-
-[#2 x Fixed Seat Step Machine Stepper Motor Mounting Bracket Aluminum For 42mm NEMA17]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Sun, Sep 25, 2016 at 5:44 PM
-  - Delivered: 2016-11-17
-  - ID: 322123572546
-  - Charge: **USD 7.19** (GBP 5.54)
-
-[#2 x Fixed Seat Step Machine Stepper Motor Mounting Bracket Aluminum For 42mm NEMA17]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Thu, Apr 13, 2017 at 6:01 AM
-  - Delivered: 2016-11-17
-  - ID: 162212160256
-  - Charge: **USD 10.70** (EUR 10.08)
-
-[#NEW Reprap 3D printer, press the belt holder fixed with aluminum sprocket]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Sun, Oct 9, 2016 at 5:34 PM
-  - Delivered: 2017-01-12
-  - ID: 112057548112
-  - Charge: **USD 2.71** (5.42/2)
-
-[SK8]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 4
-  - Unit: each
-  - Bought: Sat, Oct 29, 2016 at 11:42 PM
-  - Delivered: 2017-01-05
-  - ID: 1611059252007
-  - Charge: **USD 4.74**
-
-[SK8]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 2
-  - Unit: each
-  - Bought: Tue, May 16, 2017 at 1:02 PM
-  - Delivered: 
-  - ID: 121970347137
-  - Charge: **USD 2.55** (EUR 2.30)
-
-[#SHF]: (mechanical)
-: Detailed specifications in the SHF section, purchase information:
-  - Quantity: 4
-  - Unit: each
-  - Bought: Sun, Oct 30, 2016 at 2:01 AM
-  - Delivered: 2017-01-03
-  - ID: 1442826626010
-  - Charge: **USD 6.90** (EUR 6.28)
-
-[#50 x M3 Carbon steel spring lock washer]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Wed, Nov 30, 2016 at 6:22 PM
-  - Delivered: 2017-03-21
-  - ID: 171955312322
-  - Charge: **USD 1.44**
-
-[#Optical Endstop]: (electronic)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 4
-  - Unit: each
-  - Bought: Thu, Dec 22, 2016 at 12:09 AM
-  - Delivered: 2017-05-18
-  - ID: 381842310412
-  - Charge: **USD 3.209275** (AUD $6.15 / 6 * 4 = USD 4.8139125 / 6 * 4 = 3.209275)
-
-[#Transparent PC Plastic Panel Clear Acrylic Perspex Sheet Custom Cut To Size DIY]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Mon, Jan 9, 2017 at 5:11 PM
-  - Delivered: 2017-03-27
-  - ID: 311663453699
-  - Charge: **USD 5.89**
-
-[#Transparent PC Plastic Panel Clear Acrylic Perspex Sheet Custom Cut To Size DIY]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Wed, Jan 11, 2017 at 1:11 PM
-  - Delivered: 2017-07-12
-  - ID: 311663453699
-  - Charge: **USD 5.89**
-
-[#Transparent PC Plastic Panel Clear Acrylic Perspex Sheet Custom Cut To Size DIY]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Apr 25, 2017 at 1:05 AM
-  - Delivered: 2017-05-18
-  - ID: 132109680453
-  - Charge: **USD 5.89**
-
-[#8mm Tube Outside Diameter x 6mm Inside Diameter x 50mm Long Perspex]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Apr 25, 2017 at 4:02 AM
-  - Delivered: 182246972397
-  - ID: 2017-05-dd
-  - Charge: **USD 4.59**
-
-[#8mm Tube Outside Diameter x 6mm Inside Diameter x 500mm Long Perspex]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Wed, Jun 21, 2017 at 10:35 AM
-  - Delivered: <span style="color:#F00">pending</span>
-  - ID: 172353825989
-  - Charge: **USD 10.88**
-
-[#16 x M3 14mm Screw Hex Socket Cap Head 304 Stainless Steel]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Apr 25, 2017 at 3:00 AM
-  - Delivered: 2017-05-dd
-  - ID: 172087332352
-  - Charge: **USD 1.83333333333333333328** (2.75 / 24 * 12)
-
-[#16 x M4 10mm Screw Hex Socket Cap Head 304 Stainless Steel]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Apr 25, 2017 at 3:02 AM
-  - Delivered: 2017-05-dd
-  - ID: 182015074419
-  - Charge: **USD 2.05333333333333333328** (3.08 / 24 * 16)
-
-[#16 x M5 14mm Screw Hex Socket Cap Head 304 Stainless Steel]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Apr 25, 2017 at 3:03 AM
-  - Delivered: 2017-05-dd
-  - ID: 182093863816
-  - Charge: **USD 2.18000000000000000000** (3.27 / 24 * 16)
-
-[#10 x M5 14mm Screw Hex Socket Cap Head 304 Stainless Steel]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, May 16, 2017 at 1:16 PM
-  - Delivered: 2017-07-dd
-  - ID: 182093863816
-  - Charge: **USD 2.17**
-
-[#16 x M3 Nut Nylon Insert 316 Stainless Steel]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Apr 25, 2017 at 2:26 AM
-  - Delivered: 2017-07-dd
-  - ID: 222111255325
-  - Charge: **USD 1.72** (AUD 2.84 = USD 2.15 / 20 * 16)
-
-[#16 x M5 Nut Nylon Insert 316 Stainless Steel]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Apr 25, 2017 at 2:24 AM
-  - Delivered: 2017-07-dd
-  - ID: 222111255325
-  - Charge: **USD 2.016** (AUD 3.33 = USD 2.52 / 20 * 16)
-
-[#40pcs Self Adhesive Rubber Feet Bumper Non Slip Door Furniture Buffer Pad Black]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Thu, Aug 17, 2017 at 1:39 AM
-  - Delivered: 
-  - ID: 282605353238
-  - Charge: **USD 0.125** (1.25 / 40 * 4)
-
-[#30 x M3*10 304 Bolt Stainless Hexagonal Screw]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Fri, Feb 5, 2016 at 6:02 PM
-  - Delivered: 2016-xx-xx
-  - ID: 331767263691
-  - Charge: **USD 0.99**
-
-[#M5 / M6 Stainless Steel Metric Full Thread Hexagon Socket Cap Head Screws Bolts]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Aug 15, 2017 at 11:40 PM
-  - Delivered: <span style="color:#F00">pending</span>
-  - ID: 182093863816
-  - Charge: **USD 2.36** (2.36 / )
-
-[#200pcs 304 Stainless Steel Hex Nuts Flat Washers Spring Lock Washers Assortment]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Aug 15, 2017 at 11:40 PM
-  - Delivered: <span style="color:#F00">pending</span>
-  - ID: 172371032208
-  - Charge: **USD 0.1756** (4.39 / 200 * 8)
-
-[#4mm / M4 x 0.7 - 304 Stainless Steel - Hex Socket Cap Head Screws - DIN912 A2/70]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Aug 15, 2017 at 11:40 PM
-  - Delivered: <span style="color:#F00">pending</span>
-  - ID: 182015074419
-  - Charge: **USD 3.79** (3.79 / )
-
-[#M5 / M6 Stainless Steel Metric Full Thread Hexagon Socket Cap Head Screws Bolts]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Tue, Aug 15, 2017 at 11:40 PM
-  - Delivered: <span style="color:#F00">pending</span>
-  - ID: 182093863816
-  - Charge: **USD 2.62** (2.62 / )
-
-[#Felt tip pen]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: <span style="color:#F00">pending</span>
-  - Delivered: <span style="color:#F00">pending</span>
-  - ID: <span style="color:#F00">pending</span>
-  - Charge: **USD 0.00**
-
-[#Caneta tinteiro]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: <span style="color:#F00">pending</span>
-  - Delivered: <span style="color:#F00">pending</span>
-  - ID: <span style="color:#F00">pending</span>
-  - Charge: **USD 0.00**
-
-[#445nm 2500mW Blue Laser Module ]: (electronic)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Sat, Oct 14, 2017 at 5:25 PM
-  - Delivered: 2017-11-27
-  - ID: 172860668862
-  - Charge: **USD 78.2259072** (GBP 58.88)
-
-[#PC 150mm CO2 Laser Protective Goggles Double-Layer Professional Glasses 10.6um OD+7 For Laser New Arrival]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Sat, Oct 14, 2017 at 5:46 PM
-  - Delivered: <span style="color:#F00">pending</span>
-  - ID: 87215394438514
-  - Charge: **USD 19.84** (18.58 + 1.26)
-
-[#Screw_M5x16mm]: (mechanical)
-: Detailed specifications in the Power supply section, purchase information:
-  - Quantity: 10
-  - Unit: 10
-  - ID: 2014079566012
-  - Bought: 2017-12-23
-  - Delivered: <span style="color:#F00">pending</span>
-  - Charge: **USD 1.77**
-
-[#Screw_M5x20mm]: (mechanical)
-: Detailed specifications in the Power supply section, purchase information:
-  - Quantity: 10
-  - Unit: 10
-  - ID: 2014079566012
-  - Bought: 2017-12-23
-  - Delivered: <span style="color:#F00">pending</span>
-  - Charge: **USD 2.05**
-
-[#Screw_M5x25mm]: (mechanical)
-: Detailed specifications in the Power supply section, purchase information:
-  - Quantity: 10
-  - Unit: 10
-  - ID: 2014079566012
-  - Bought: 2017-12-23
-  - Delivered: <span style="color:#F00">pending</span>
-  - Charge: **USD 2.05**
-
-[#Time]: (intangible)
-: All work and no play makes me a dull boy:
-  - Quantity: 173
-  - Unit: hours
-  - ID: -
-  - Bought: -
-  - Delivered: -
-  - Charge: **USD 0.00**
+| Quant | Description        | ID             | Bought     | Delivered  | Unit | Charge    | Taxes (USD)      | Cost (USD) |
+|-------|--------------------|----------------|------------|------------|------|-----------|------------------|------------|
+|     1 | Arduino_Uno_R3     |  1461804416006 | 2016-10-09 | 2016-11-29 | each |  LUX 7.82 | 0.00 (IOF 6.38%) |            |
+|     1 | CNC_Shield         |   112401201692 | 2017-08-17 | 2018-01-23 | each |  USD 7.40 | 0.00 (IOF 6.38%) |            |
+|     4 | GT2_20N_pulley     |   131648026845 | 2016-07-21 | 2016-09-dd | each | USD 10.98 | 0.00 (IOF 6.38%) |            |
+|     1 | GT2_20T_pulley     |   282052333232 | 2016-08-09 | 2016-09-1d | each |  USD 2.35 | 0.00 (IOF 6.38%) |            |
+|  1000 | Chromed_rod        |   322133935331 | 2016-08-02 | 2016-10-10 | mm   | USD 11.56 | 0.00 (IOF 6.38%) |            |
+|  1000 | Chromed_rod        |   322133935331 | 2016-10-19 | 2016-11-17 | mm   | USD 11.58 | 0.00 (IOF 6.38%) |            |
+|     8 | SC8VUU             |   110723291022 | 2016-08-09 | 2016-09-20 | each | USD 18.04 | 0.00 (IOF 6.38%) |            |
+|     1 | Servo_9g           |   252433665853 | 2016-09-09 | 2016-10-04 | each |  USD 3.56 | 0.00 (IOF 6.38%) |            |
+|  2000 | GT2_Belt_6mm       |   272234427429 | 2016-09-09 | 2016-10-25 | mm   |  USD 7.68 | 0.00 (IOF 6.38%) |            |
+|     2 | GT2_16T_pulley     |   272234427429 | 2016-09-09 | 2016-10-25 | each |  USD 0.00 | 0.00 (IOF 6.38%) |       0.00 |
+|     1 | NEMA17_stepper     |   331871059726 | 2019-09-25 | 2016-10-28 | each | USD 10.38 | 0.00 (IOF 6.38%) |            |
+|     1 | NEMA17_stepper     |   331871062088 | 2016-10-29 | 2017-mm-dd | each | USD 10.38 | 0.00 (IOF 6.38%) |            |
+|     2 | NEMA17_fastener    |   322123572546 | 2016-09-25 | 2016-11-17 | each |  GBP 5.54 | 0.00 (IOF 6.38%) |            |
+|     2 | NEMA17_fastener    |   162212160256 | 2017-04-13 | 2016-11-17 | each | EUR 10.08 | 0.00 (IOF 6.38%) |            |
+|     1 | GT2_Belt_holder    |   112057548112 | 2016-10-09 | 2017-01-12 | each |  USD 2.71 | 0.00 (IOF 6.38%) |            |
+|     4 | SK8                |  1611059252007 | 2016-10-29 | 2017-01-05 | each |  USD 4.74 | 0.00 (IOF 6.38%) |            |
+|     2 | SK8                |   121970347137 | 2017-05-16 | Pending    | each |  EUR 2.30 | 0.00 (IOF 6.38%) |            |
+|     4 | SHF8               |  1442826626010 | 2016-10-30 | 2017-01-03 | each |  EUR 6.28 | 0.00 (IOF 6.38%) |            |
+|    50 | M3_spring_lock     |   171955312322 | 2016-10-30 | 2017-03-21 | each |  USD 1.44 | 0.00 (IOF 6.38%) |            |
+|     4 | Optical_endstop    |   381842310412 | 2016-12-22 | 2017-05-18 | each |  USD 3.21 | 0.00 (IOF 6.38%) |            |
+|     1 | Acrylic_Sheet      |   311663453699 | 2017-01-09 | 2017-03-27 | each |  USD 5.89 | 0.00 (IOF 6.38%) |            |
+|     1 | Acrylic_Sheet      |   311663453699 | 2017-01-11 | 2017-07-12 | each |  USD 5.89 | 0.00 (IOF 6.38%) |            |
+|     1 | Acrylic_Sheet      |   311663453699 | 2017-01-11 | 2017-07-12 | each |  USD 5.89 | 0.00 (IOF 6.38%) |            |
+|     1 | Acrylic_Sheet      |   132109680453 | 2017-04-25 | 2017-05-18 | each |  USD 5.89 | 0.00 (IOF 6.38%) |            |
+|    50 | Acrylic_Tube_8mm   |   182246972397 | 2017-04-25 | 2017-05-dd | mm   |  USD 4.59 | 0.00 (IOF 6.38%) |            |
+|   500 | Acrylic_Tube_8mm   |   172353825989 | 2017-06-21 | Pending    | mm   | USD 10.88 | 0.00 (IOF 6.38%) |            |
+|    16 | Screw_M3x14mm      |   172087332352 | 2017-04-25 | 2017-05-dd | each |  USD 1.82 | 0.00 (IOF 6.38%) |            |
+|    16 | Screw_M4x10mm      |   182015074419 | 2017-04-25 | 2017-05-dd | each |  USD 2.04 | 0.00 (IOF 6.38%) |            |
+|    16 | Screw_M5x14mm      |   182093863816 | 2017-04-25 | 2017-05-dd | each |  USD 2.18 | 0.00 (IOF 6.38%) |            |
+|    10 | Screw_M5x14mm      |   182093863816 | 2017-05-16 | 2017-07-dd | each |  USD 2.17 | 0.00 (IOF 6.38%) |            |
+|    16 | Nut_M3_nylon       |   222111255325 | 2017-04-25 | 2017-07-dd | each |  USD 1.72 | 0.00 (IOF 6.38%) |            |
+|    16 | Nut_M5_nylon       |   222111255325 | 2017-04-25 | 2017-07-dd | each |  USD 2.02 | 0.00 (IOF 6.38%) |            |
+|    40 | Adhesive_Feet      |   282605353238 | 2017-08-17 | Pending    | each |  USD 0.12 | 0.00 (IOF 6.38%) |            |
+|    30 | Screw_M3x10mm      |   331767263691 | 2016-02-05 | 2016-xx-xx | each |  USD 0.99 | 0.00 (IOF 6.38%) |            |
+|    30 | Screw_M3x10mm      |   331767263691 | 2016-02-05 | 2016-xx-xx | each |  USD 0.99 | 0.00 (IOF 6.38%) |            |
+|     1 | Screw_M6           |   182093863816 | 2017-08-15 | Pending    | each |  USD 2.36 | 0.00 (IOF 6.38%) |            |
+|   200 | Nut assortment     |   172371032208 | 2017-08-15 | Pending    | each |  USD 0.17 | 0.00 (IOF 6.38%) |            |
+|     1 | Screw_M4_4mm       |   182015074419 | 2017-08-15 | Pending    | each |  USD 3.79 | 0.00 (IOF 6.38%) |            |
+|     1 | Scres_M5           |   182093863816 | 2017-08-15 | Pending    | each |  USD 2.62 | 0.00 (IOF 6.38%) |            |
+|     1 | Felt_tip_pen       | Pending        | Pending    | Pending    | each |  USD 0.00 | 0.00 (IOF 6.38%) |            |
+|     1 | Caneta_tinteiro    | Pending        | Pending    | Pending    | each |  USD 0.00 | 0.00 (IOF 6.38%) |            |
+|     1 | Laser_445nm_2500mW |   172860668862 | 2017-10-14 | 2017-11-27 | each | USD 78.22 | 0.00 (IOF 6.38%) |            |
+|     1 | Laser_Glasses      | 87215394438514 | 2017-10-14 | 2017-10-14 | each | USD 19.84 | 0.00 (IOF 6.38%) |            |
+|    10 | Screw_M5x16mm      |                | 2017-12-23 | Pending    | each |  USD 1.77 | 0.00 (IOF 6.38%) |            |
+|    10 | Screw_M5x20mm      |                | 2017-12-23 | Pending    | each |  USD 2.05 | 0.00 (IOF 6.38%) |            |
+|    10 | Screw_M5x25mm      |                | 2017-12-23 | Pending    | each |  USD 2.05 | 0.00 (IOF 6.38%) |            |
 
 ### Amount
 Total cost: $301.21
