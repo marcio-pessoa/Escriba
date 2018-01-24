@@ -1,6 +1,6 @@
-# Marlon - Mark I
+# Escriba - Mark I
 
-## Bill of material
+## Bill of materials
 
 | Quant | Description     | ID            | Bought     | Delivered  | Unit | Charge    | Taxes (USD)      | Cost (USD) |
 |-------|-----------------|---------------|------------|------------|------|-----------|------------------|------------|
