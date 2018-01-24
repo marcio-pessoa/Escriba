@@ -1,21 +1,12 @@
 # Bill of material
 
-| Quant | Description    | ID            | Bought     | Delivered  | Unit | Charge   | Cost (USD) |
-|-------|----------------|---------------|------------|------------|------|----------|------------|
-| 1     | Arduino_Uno_R3 | 1461804416006 | 2016-10-09 | 2016-11-29 | each | LUX 7.82 |       8.76 |
-| 1     | CNC_Shield     | 112401201692  | 2017-08-17 | 2018-01-23 | each | USD 7.40 |            |
-|       |                |               |            |            |      |          |            |
+| Quant | Description     | ID            | Bought     | Delivered  | Unit | Charge    | Taxes (USD)      | Cost (USD) |
+|-------|-----------------|---------------|------------|------------|------|-----------|------------------|------------|
+|     1 | Arduino_Uno_R3  | 1461804416006 | 2016-10-09 | 2016-11-29 | each |  LUX 7.82 | 0.00 (IOF 6.38%) |            |
+|     1 | CNC_Shield      | 112401201692  | 2017-08-17 | 2018-01-23 | each |  USD 7.40 |                  |            |
+|     4 | GT-2_pulley     | 131648026845  | 2016-07-21 | 2016-09-dd | each | USD 10.98 |                  |            |
+|     1 |                 |               | 201a-mm-aa | 201a-mm-aa | each |           |                  |            |
 
-
-
-[#4 x 20T 5mm Diameter Bore Gt2 Smooth Idler Pulley For 3D Printer Accessory Part TW]: (mechanical)
-: Detailed specifications in the Frame section, purchase information:
-  - Quantity: 4
-  - Unit: each
-  - Bought: Thu, Jul 21, 2016 at 6:14 PM
-  - Delivered: 2016-09-XX
-  - ID: 131648026845
-  - Charge: **USD 10.98**
 
 [#1pcs Choose from 20T/16T 3/5mm Diameter Bore GT2 Idler Pulley For 3D Printer]: (mechanical)
 : Detailed specifications in the Frame section, purchase information:
