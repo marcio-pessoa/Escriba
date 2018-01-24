@@ -2,20 +2,11 @@
 
 | Quant | Description    | ID            | Bought     | Delivered  | Unit | Charge   | Cost (USD) |
 |-------|----------------|---------------|------------|------------|------|----------|------------|
-| 1     | Arduino_Uno_R3 | 1461804416006 | 2016-10-09 | 2016-11-29 | each | LUX 7.82 |    USD8.76 |
+| 1     | Arduino_Uno_R3 | 1461804416006 | 2016-10-09 | 2016-11-29 | each | LUX 7.82 |       8.76 |
+| 1     | CNC_Shield     | 112401201692  | 2017-08-17 | 2018-01-23 | each | USD 7.40 |            |
 |       |                |               |            |            |      |          |            |
-|       |                |               |            |            |      |          |            |
 
 
-
-[#CNC Shield Board (GRBL compatible)]: (electronic)
-: Detailed specifications in the CNC Shield section, purchase information:
-  - Quantity: 1
-  - Unit: each
-  - Bought: Thu, Aug 17, 2017 at 11:31 PM
-  - Delivered: 2018-01-23
-  - ID: 112401201692
-  - Charge: **USD 7.40**
 
 [#4 x 20T 5mm Diameter Bore Gt2 Smooth Idler Pulley For 3D Printer Accessory Part TW]: (mechanical)
 : Detailed specifications in the Frame section, purchase information:
