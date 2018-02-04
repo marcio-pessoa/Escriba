@@ -1,7 +1,13 @@
-# Escriba - Mark I
-**Ploter**
+# Escriba Mark I - Ploter
+
 Márcio Pessoa
 2017-09-16
+
+[Change log](CHANGELOG.md)
+
+[Bill of materials](BOM.md)
+
+[Kanban](KANBAN.md)
 
 # Mechanics
 ![Figure [Escriba]: Mechanical design](Mechanics/Escriba.svg width="90%" border="0")

@@ -1,5 +1,5 @@
-# Change log
-All notable changes to this project will be documented in this file.
+# CHANGELOG
+Escriba Mark I - Ploter, Change log
 
 ## [0.9j] - 2017-09-12
 ### Changed
