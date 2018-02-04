@@ -9,6 +9,10 @@ Márcio Pessoa
 
 [Kanban](KANBAN.md)
 
+http://www.instructables.com/id/4xiDraw/
+
+http://manual.slic3r.org/advanced/command-line
+
 # Mechanics
 ![Figure [Escriba]: Mechanical design](Mechanics/Escriba.svg width="90%" border="0")
 
