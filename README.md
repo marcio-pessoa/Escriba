@@ -40,36 +40,37 @@ Linear Ball Bearing Pellow Bolck With LM8UU For CNC
 
 ### Diagram
 
-********************************************************************
-*                                      .-----.                     *
-*         .----[PWR]-------------------| USB |--.                  *
-*         |                            '-----'  |                  *
-*         |         GND/RST2  [ ][ ]            |                  *
-*         |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5             *
-*         |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4             *
-*         |                             AREF[ ] |                  *
-*         |                              GND[ ] |                  *
-*         | [ ]NC                     SCK/13[ ] |   B5             *
-*         | [ ]v.ref                 MISO/12[ ] |   .              *
-*         | [ ]RST                   MOSI/11[ ]~|   .              *
-*         | [ ]3V3    +---+               10[ ]~|   .              *
-*         | [ ]5v     | A |                9[ ]~|   .              *
-*         | [ ]GND   -| R |-               8[ ] |   B0             *
-*         | [ ]GND   -| D |-                    |                  *
-*         | [ ]Vin   -| U |-               7[ ] |   D7             *
-*         |          -| I |-               6[ ]~|   .              *
-*         | [ ]A0    -| N |-               5[ ]~|   .              *
-*         | [ ]A1    -| O |-               4[ ] |   .              *
-*         | [ ]A2     +---+           INT1/3[ ]~|   .              *
-*         | [ ]A3                     INT0/2[ ] |   .              *
-*         | [ ]A4/SDA  RST SCK MISO     TX>1[ ] |   .              *
-*         | [ ]A5/SCL  [ ] [ ] [ ]      RX<0[ ] |   D0             *
-*         |            [ ] [ ] [ ]              |                  *
-*         '--.                         .--------'                  *
-*             \_______________________/                            *
-*                                                                  *
-********************************************************************
-[Figure [pins]: Arduino Uno R3[^busyducks]]
+    
+                                          .-----.                     
+             .----[PWR]-------------------| USB |--.                  
+             |                            '-----'  |                  
+             |         GND/RST2  [ ][ ]            |                  
+             |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5             
+             |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4             
+             |                             AREF[ ] |                  
+             |                              GND[ ] |                  
+             | [ ]NC                     SCK/13[ ] |   B5             
+             | [ ]v.ref                 MISO/12[ ] |   .              
+             | [ ]RST                   MOSI/11[ ]~|   .              
+             | [ ]3V3    +---+               10[ ]~|   .              
+             | [ ]5v     | A |                9[ ]~|   .              
+             | [ ]GND   -| R |-               8[ ] |   B0             
+             | [ ]GND   -| D |-                    |                  
+             | [ ]Vin   -| U |-               7[ ] |   D7             
+             |          -| I |-               6[ ]~|   .              
+             | [ ]A0    -| N |-               5[ ]~|   .              
+             | [ ]A1    -| O |-               4[ ] |   .              
+             | [ ]A2     +---+           INT1/3[ ]~|   .              
+             | [ ]A3                     INT0/2[ ] |   .              
+             | [ ]A4/SDA  RST SCK MISO     TX>1[ ] |   .              
+             | [ ]A5/SCL  [ ] [ ] [ ]      RX<0[ ] |   D0             
+             |            [ ] [ ] [ ]              |                  
+             '--.                         .--------'                  
+                 \_______________________/                            
+                                                                      
+    
+
+Arduino Uno R3 diagram by http://busyducks.com/ascii-art-arduinos
 
 ### Pin designation
 
@@ -140,37 +141,23 @@ Bla, bla...
 [Configuring][Grbl_configuring]
 
 ### G-Code
-List of Supported G-Codes in [Grbl][Grbl] v0.9 Master:
-Non-Modal Commands:
-:  G4, G10L2, G10L20, G28, G30, G28.1, G30.1, G53, G92, G92.1
-Motion Modes:
-:  G0, G1, G2, G3, G38.2, G38.3, G38.4, G38.5, G80
-Feed Rate Modes: 
-:  G93, G94
-Unit Modes: 
-:  G20, G21
-Distance Modes: 
-:  G90, G91
-Arc IJK Distance Modes: 
-:  G91.1
-Plane Select Modes: 
-:  G17, G18, G19
-Tool Length Offset Modes: 
-:  G43.1, G49
-Cutter Compensation Modes: 
-:  G40
-Coordinate System Modes: 
-:  G54, G55, G56, G57, G58, G59
-Control Modes: 
-:  G61
-Program Flow: 
-:  M0, M1, M2, M30*
-Coolant Control: 
-:  M7*, M8, M9
-Spindle Control: 
-:  M3, M4, M5
-Valid Non-Command Words: 
-:  F, I, J, K, L, N, P, R, S, T, X, Y, Z
+List of Supported G-Codes in Grbl v0.9 Master:
+  - Non-Modal Commands: G4, G10L2, G10L20, G28, G30, G28.1, G30.1, G53, G92, G92.1
+  - Motion Modes: G0, G1, G2, G3, G38.2, G38.3, G38.4, G38.5, G80
+  - Feed Rate Modes: G93, G94
+  - Unit Modes: G20, G21
+  - Distance Modes: G90, G91
+  - Arc IJK Distance Modes: G91.1
+  - Plane Select Modes: G17, G18, G19
+  - Tool Length Offset Modes: G43.1, G49
+  - Cutter Compensation Modes: G40
+  - Coordinate System Modes: G54, G55, G56, G57, G58, G59
+  - Control Modes: G61
+  - Program Flow: M0, M1, M2, M30*
+  - Coolant Control: M7*, M8, M9
+  - Spindle Control: M3, M4, M5
+  - Valid Non-Command Words: F, I, J, K, L, N, P, R, S, T, X, Y, Z
+
 
 # Tools
 
@@ -188,8 +175,6 @@ Pen holder tecnical specifications:
   - Acrilic
 
 ---
-
-[^busyducks]: Diagram by: <http://busyducks.com/ascii-art-arduinos>
 
 [Arduino_Uno]: https://www.arduino.cc/en/Main/arduinoBoardUno/#techspecs
 [Grbl_configuring]: https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.9
