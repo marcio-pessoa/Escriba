@@ -48,7 +48,7 @@ Escriba Mark I - Ploter, Bill of materials
 |    50 | Acrylic_Tube_8mm   | Pending        | Pending    | Pending    | cm   |   0.00 |  0.00 |   0.00 |
 |     4 | Adhesive_Feet      |   182933353181 | 2017-12-27 | Pending    | each |   0.04 |  0.01 |   0.05 |
 |     1 | Felt_tip_pen       | -              | 2017-08-dd | 2017-08-dd | each |   0.00 |  1.00 |   1.00 |
-|     1 | Caneta_tinteiro    | -              | 2018-02-08 | 2018-02-08 | each |   6.08 |  0.00 |   6.08 |
+|     1 | Fountain_pen       | -              | 2018-02-08 | 2018-02-08 | each |   6.08 |  0.00 |   6.08 |
 
 Currency: USD
 
