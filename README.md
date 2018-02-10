@@ -20,7 +20,7 @@ Márcio Pessoa
 ### SHF
 ![SHF8](Documents/SHF8.png)
 
-SHF8 technical specifications:
+Technical specifications:
 - Shaft: 8 mm
 - Fastener: M5
 
@@ -30,19 +30,19 @@ Linear Ball Bearing Pellow Bolck With LM8UU For CNC
 ## Belt
 ![GT2 belt](Documents/gt2tooth.jpg)
 
-Belt technical specifications:
+Technical specifications:
 
 ## Noise reduction
 
 # Electronics
 
 ## Arduino
-[#Arduino_Uno_R3] technical specifications:
-- 
+Technical specifications:
+
+[Arduino_Uno_R3]
 
 ### Diagram
 
-    
                                           .-----.                     
              .----[PWR]-------------------| USB |--.                  
              |                            '-----'  |                  
@@ -107,9 +107,9 @@ Table [pins] shows pin designation.
 [CNC/Stepper Motor Shield](Documents/cnc-3axis-shield.pdf)
 
 ## Step motors
-![Technical specifications](Documents/JK42HS34-1334AC_techspecs.jpg)
+![Step motors](Documents/JK42HS34-1334AC_techspecs.jpg)
 
-NEMA 17 stepper motor technical specifications:
+Technical specifications:
 - Model: JK42HS34-1334AC
 - Phase: 2
 - Step angle: 1.8 degrees (200 steps/revolution)
@@ -168,7 +168,9 @@ Pen holder tecnical specifications:
 - Material: ABS (3D printed) and steel
 
 ## Laser
-![Technical specifications](Documents/Laser_445nm_2500mW.jpg)
+![Laser](Documents/Laser_445nm_2500mW.jpg)
+
+Technical specifications:
 
 - Cut
   - Paper
