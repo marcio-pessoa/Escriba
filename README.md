@@ -10,7 +10,7 @@ Márcio Pessoa
 [Kanban](KANBAN.md)
 
 # Mechanics
-![Figure [Escriba]: Mechanical design](Mechanics/Escriba.svg width="90%" border="0")
+![Mechanical design](Mechanics/Escriba.svg)
 
 ## Maximum travel
 - x axis: 394,20 mm
@@ -18,8 +18,9 @@ Márcio Pessoa
 - z axis: 0,0 mm
 
 ### SHF
-![Figure [SHF]: SHF8](Documents/SHF8.png width="50%" border="0")
-[#SHF] technical specifications:
+![SHF8](Documents/SHF8.png)
+
+SHF8 technical specifications:
 - Shaft: 8 mm
 - Fastener: M5
 
@@ -27,8 +28,9 @@ Márcio Pessoa
 Linear Ball Bearing Pellow Bolck With LM8UU For CNC
 
 ## Belt
-![Figure [gt2belt]: GT2 belt](Documents/gt2tooth.jpg width="40%" border="0")
-[#Belt] technical specifications:
+![GT2 belt](Documents/gt2tooth.jpg)
+
+Belt technical specifications:
 
 ## Noise reduction
 
@@ -99,15 +101,15 @@ Table [pins] shows pin designation.
 | 18 |   4 | digital   | input     | (not used/reserved)                      |
 | 19 |   5 | digital   | input     | Probe                                    |
 
-[Table [pins]: Arduino Uno pin designation.]
-
 ## CNC Shield
-![Figure [CNC_Shield_v3]: PCB description](Documents/CNC_Stepper_Motor_Shield_v3.00_Draft.jpg width="70%" border="0")
+![PCB description](Documents/CNC_Stepper_Motor_Shield_v3.00_Draft.jpg)
+
 [CNC/Stepper Motor Shield](Documents/cnc-3axis-shield.pdf)
 
 ## Step motors
-![Figure [JK42HS34_techspecs]: Technical specifications](Documents/JK42HS34-1334AC_techspecs.jpg width="50%" border="0")
-Some caracteristics about NEMA 17 step motor:
+![Technical specifications](Documents/JK42HS34-1334AC_techspecs.jpg)
+
+NEMA 17 stepper motor technical specifications:
 - Model: JK42HS34-1334AC
 - Phase: 2
 - Step angle: 1.8 degrees (200 steps/revolution)
@@ -121,10 +123,9 @@ Some caracteristics about NEMA 17 step motor:
 - Size (metric): 4.2 cm x 4.2 cm x 3.4 cm
 - Size (imperial): 1.65" x 1.65" x 1.34"
 
-![Figure [JK42HS34_photo]: NEMA 17 step motor](Documents/JK42HS34-1334AC_photo.jpg width="50%" border="0")
+![NEMA 17 step motor](Documents/JK42HS34-1334AC_photo.jpg)
 
 # Software
-Bla, bla...
 
 ## Grbl
 > "Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. It will run on a vanilla Arduino (Duemillanove/Uno) as long as it sports an Atmega 328. 
@@ -135,7 +136,7 @@ Bla, bla...
 > 
 > Grbl includes full acceleration management with look ahead. That means the controller will look up to 18 motions into the future and plan its velocities ahead to deliver smooth acceleration and jerk-free cornering."
 > 
-> From: [GRBL web page] (https://github.com/grbl/grbl).
+> -- From: [GRBL web page]
 
 ### Configuring
 [Configuring][Grbl_configuring]
@@ -162,12 +163,12 @@ List of Supported G-Codes in Grbl v0.9 Master:
 # Tools
 
 ## Pen holder
-![Figure [Pen_holder]: Pen holder](Documents/Pen_holder.png width="50%" border="0")
+![Pen holder](Documents/Pen_holder.png)
 Pen holder tecnical specifications:
 - Material: ABS (3D printed) and steel
 
 ## Laser
-![Figure [JK42HS34_techspecs]: Technical specifications](Documents/Laser_445nm_2500mW.jpg width="50%" border="0")
+![Technical specifications](Documents/Laser_445nm_2500mW.jpg)
 
 - Cut
   - Paper
@@ -178,3 +179,4 @@ Pen holder tecnical specifications:
 
 [Arduino_Uno]: https://www.arduino.cc/en/Main/arduinoBoardUno/#techspecs
 [Grbl_configuring]: https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.9
+[GRBL web page]: https://github.com/grbl/grbl
