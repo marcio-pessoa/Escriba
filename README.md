@@ -170,7 +170,7 @@ Pen holder tecnical specifications:
 ## Laser
 ![Laser](Documents/Laser_445nm_2500mW.jpg)
 
-Technical specifications:
+Technical specification
 
 - Cut
   - Paper
