@@ -22,8 +22,8 @@
 
 # Variables
 action=$1
-readonly WORKDIR="grbl"
-# readonly WORKDIR="grbl-servo"
+# readonly WORKDIR="grbl"
+readonly WORKDIR="grbl-servo"
 readonly LIBRARY_PATH="$HOME/Development/Escriba/Mark_I/$WORKDIR"
 readonly ARDUINO_PATH="$HOME/Development/Arduino/libraries/grbl"
 

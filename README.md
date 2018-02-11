@@ -17,20 +17,30 @@ Márcio Pessoa
 - y axis: 213.15 mm
 - z axis: 0,0 mm
 
-### SHF
+### SHF8
 ![SHF8](Documents/SHF8.png)
 
 Technical specifications:
 - Shaft: 8 mm
 - Fastener: M5
+- Material: aluminium
 
 ### SC8VUU
 Linear Ball Bearing Pellow Bolck With LM8UU For CNC
+
+-Technical specifications:
+- Shaft: 8 mm
+- Fastener: M3
+- Material: aluminium and steel
 
 ## Belt
 ![GT2 belt](Documents/gt2tooth.jpg)
 
 Technical specifications:
+- Standard: GT2
+- Pinch: 2 mm
+- Wide: 6 mm
+- Lenght:  mm
 
 ## Noise reduction
 
@@ -39,7 +49,7 @@ Technical specifications:
 ## Arduino
 Technical specifications:
 
-[Arduino_Uno_R3]
+[Arduino Uno]
 
 ### Diagram
 
@@ -136,10 +146,12 @@ Technical specifications:
 > 
 > Grbl includes full acceleration management with look ahead. That means the controller will look up to 18 motions into the future and plan its velocities ahead to deliver smooth acceleration and jerk-free cornering."
 > 
-> -- From: [GRBL web page]
+> -- From: [Grbl web page]
 
 ### Configuring
-[Configuring][Grbl_configuring]
+Set the baud rate to 115200 as 8-N-1 (8-bits, no parity, and 1-stop bit.)
+
+[Grbl configuring]
 
 ### G-Code
 List of Supported G-Codes in Grbl v0.9 Master:
@@ -179,6 +191,6 @@ Technical specification
 
 ---
 
-[Arduino_Uno]: https://www.arduino.cc/en/Main/arduinoBoardUno/#techspecs
-[Grbl_configuring]: https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.9
-[GRBL web page]: https://github.com/grbl/grbl
+[Arduino Uno]: https://www.arduino.cc/en/Main/arduinoBoardUno/#techspecs
+[Grbl web page]: https://github.com/grbl/grbl
+[Grbl configuring]: https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.9
