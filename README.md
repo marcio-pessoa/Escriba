@@ -1,8 +1,5 @@
 # Escriba Mark I - Ploter
 
-Márcio Pessoa
-2017-09-16
-
 [Change log](CHANGELOG.md)
 
 [Bill of materials](BOM.md)
@@ -26,12 +23,11 @@ Technical specifications:
 - Material: aluminium
 
 ### SC8VUU
-Linear Ball Bearing Pellow Bolck With LM8UU For CNC
-
--Technical specifications:
+Technical specifications:
 - Shaft: 8 mm
 - Fastener: M3
-- Material: aluminium and steel
+- Material: aluminium
+- System: LM8UU
 
 ## Belt
 ![GT2 belt](Documents/gt2tooth.jpg)
@@ -52,7 +48,6 @@ Technical specifications:
 [Arduino Uno]
 
 ### Diagram
-
                                           .-----.                     
              .----[PWR]-------------------| USB |--.                  
              |                            '-----'  |                  
@@ -79,15 +74,10 @@ Technical specifications:
              |            [ ] [ ] [ ]              |                  
              '--.                         .--------'                  
                  \_______________________/                            
-                                                                      
-    
 
 Arduino Uno R3 diagram by http://busyducks.com/ascii-art-arduinos
 
 ### Pin designation
-
-Table [pins] shows pin designation.
-
 | id | pin |   type    | direction |               description                |
 |----|-----|-----------|-----------|------------------------------------------|
 |  0 |   0 | digital   | input     | Serial communication                     |
@@ -171,19 +161,18 @@ List of Supported G-Codes in Grbl v0.9 Master:
   - Spindle Control: M3, M4, M5
   - Valid Non-Command Words: F, I, J, K, L, N, P, R, S, T, X, Y, Z
 
-
 # Tools
 
 ## Pen holder
 ![Pen holder](Documents/Pen_holder.png)
-Pen holder tecnical specifications:
+
+Technical specifications:
 - Material: ABS (3D printed) and steel
 
 ## Laser
 ![Laser](Documents/Laser_445nm_2500mW.jpg)
 
-Technical specification
-
+Technical specifications:
 - Cut
   - Paper
   - Cardboard
