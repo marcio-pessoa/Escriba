@@ -47,12 +47,12 @@ Escriba Mark I - Ploter, Bill of materials
 |     5 | Acrylic_Tube_8mm   |   182246972397 | 2017-04-25 | 2017-05-dd | cm   |   4.59 |  0.29 |   4.88 |
 |    50 | Acrylic_Tube_8mm   | Pending        | Pending    | Pending    | cm   |   0.00 |  0.00 |   0.00 |
 |   200 | Nut assortment     |   172371032208 | 2017-08-15 | Pending    | each |   0.17 |  0.01 |   0.18 |
-|     1 | Laser_Glasses      | 87215394438514 | 2017-10-14 | Pending    | each |  19.84 |  1.26 |  21.10 |
+|     1 | Laser_Glasses      | 87215394438514 | 2017-10-14 | Pending    | each |  19.84 |  0.00 |  19.84 |
 |     4 | Adhesive_Feet      |   182933353181 | 2017-12-27 | Pending    | each |   0.04 |  0.01 |   0.05 |
-|     1 | PSU_12VDC/5A       | pending        | pending    | pending    | each |        |       |        |
+|     1 | PSU_12VDC/5A       | -              | 2015-mm-dd | 2015-mm-dd | each |   0.00 |  0.00 |   0.00 |
 
 Currency: USD
 
 IOF: 6.38%
 
-Total cost: $317.06
+Total cost: $315.80

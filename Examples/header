@@ -1,3 +1,4 @@
 $$  ; View Grbl settings
 ?   ; Current status
+$G  ; View gcode parser state
 G90 ; Absolute distance mode

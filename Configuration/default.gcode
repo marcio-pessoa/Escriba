@@ -17,8 +17,8 @@ $110=5000.000  ; x axis (mm/min)
 $111=5000.000  ; y axis (mm/min)
 
 ; Acceleration
-$120=1000.000  ; x axis (mm/sec^2)
-$121=1000.000  ; y axis (mm/sec^2)
+$120=200.000  ; x axis (mm/sec^2)
+$121=200.000  ; y axis (mm/sec^2)
 
 ; Maximum travel
 $130=375.428  ; x axis (mm)

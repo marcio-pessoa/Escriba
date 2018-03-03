@@ -65,7 +65,7 @@ Technical specifications:
 - [Arduino Uno] R3
 
 ### Diagram
-                                .-----.                     
+                                 .-----.                     
     .----[PWR]-------------------| USB |--.                  
     |                            '-----'  |                  
     |         GND/RST2  [ ][ ]            |                  
@@ -90,7 +90,7 @@ Technical specifications:
     | [ ]A5/SCL  [ ] [ ] [ ]      RX<0[ ] |   D0             
     |            [ ] [ ] [ ]              |                  
     '--.                         .--------'                  
-       \_______________________/                            
+        \_______________________/                            
 
 Diagram by http://busyducks.com/ascii-art-arduinos
 
