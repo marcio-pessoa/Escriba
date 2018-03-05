@@ -190,6 +190,9 @@ Technical specifications:
 ![Laser](Documents/Laser_445nm_2500mW.jpg)
 
 Technical specifications:
+- Power: 2.5 W
+- Version: 2
+- PWM: Yes
 - Cut
   - Paper
   - Cardboard
