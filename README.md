@@ -123,6 +123,36 @@ Diagram by http://busyducks.com/ascii-art-arduinos
 
 [CNC/Stepper Motor Shield](Documents/cnc-3axis-shield.pdf)
 
+Technical specifications:
+- Version: 3.00
+
+## Stepper drivers
+CNC Shield has 3 jumpers to configure each axes resolution.
+That can be set to configure the motor micro stepping.
+
+### Resolution configuration
+
+#### Pololu A4988
+ M0   | M1   | M2   | Microstep resolution
+------|------|------|-----------------------
+ Low  | Low  | Low  | Full step
+ High | Low  | Low  | Half step
+ Low  | High | Low  | Quarter step
+ High | High | Low  | Eighth step
+ High | High | High | Sixteenth step
+
+#### Pololu DRV8825
+ M0   | M1   | M2   | Microstep resolution
+------|------|------|-----------------------
+ Low  | Low  | Low  | Full step
+ High | Low  | Low  | Half step
+ Low  | High | Low  | 1/4 step
+ High | High | Low  | 1/8 step
+ Low  | Low  | High | 1/16 step
+ High | Low  | High | 1/32 step
+ Low  | High | High | 1/32 step
+ High | High | High | 1/32 step
+
 ## Step motors
 ![Step motors](Documents/JK42HS34-1334AC_techspecs.jpg)
 

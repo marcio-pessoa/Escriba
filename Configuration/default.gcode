@@ -6,6 +6,13 @@
 ; 
 ; Change log:
 ; 2017-11-11
+;         Changed: Trying to be faster
+;                  $110=10000.000
+;                  $111=10000.000
+;                  $120=800.000
+;                  $121=800.000
+;
+; 2017-11-11
 ;         Experimental version.
 
 ; Steps to milimeters
@@ -13,12 +20,12 @@ $100=80  ; x axis (step/mm)
 $101=80  ; y axis (step/mm)
 
 ; Maximum rate
-$110=5000.000  ; x axis (mm/min)
-$111=5000.000  ; y axis (mm/min)
+$110=10000.000  ; x axis (mm/min)
+$111=10000.000  ; y axis (mm/min)
 
 ; Acceleration
-$120=200.000  ; x axis (mm/sec^2)
-$121=200.000  ; y axis (mm/sec^2)
+$120=800.000  ; x axis (mm/sec^2)
+$121=800.000  ; y axis (mm/sec^2)
 
 ; Maximum travel
 $130=375.428  ; x axis (mm)

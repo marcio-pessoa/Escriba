@@ -4,6 +4,7 @@
   - (Mechanics) Pen holder - Install
   - (Mechanics) Bluetooth module support - Design
   - (Mechanics) Bluetooth module support - Install
+  - (Electronics) DRV8825 - Swap stepper motors drivers to better resolution
   - (Electronics) Endstop - Cabling
   - (Electronics) Bluetooth module - Install
   - (Electronics) Bluetooth module - Cabling

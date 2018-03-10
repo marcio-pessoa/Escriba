@@ -11,10 +11,10 @@
 # Change log:
 # 2017-09-12
 #         Tested on: Grbl 0.9j.
-#         Enable: COREXY.
-#         Change: HOMING_CYCLE_0 to support COREXY.
-#         Disable: HOMING_CYCLE_1 to support COREXY.
-#         Change: SPINDLE_MAX_RPM to low rotation (tool speed).
+#         Enabled: COREXY.
+#         Changed: HOMING_CYCLE_0 to support COREXY.
+#         Disabled: HOMING_CYCLE_1 to support COREXY.
+#         Changed: SPINDLE_MAX_RPM to low rotation (tool speed).
 #
 # 2016-08-09
 #         Project definition.
@@ -22,8 +22,8 @@
 
 # Variables
 action=$1
-# readonly WORKDIR="grbl"
-readonly WORKDIR="grbl-servo"
+readonly WORKDIR="grbl"
+# readonly WORKDIR="grbl-servo"
 readonly LIBRARY_PATH="$HOME/Development/Escriba/Mark_I/$WORKDIR"
 readonly ARDUINO_PATH="$HOME/Development/Arduino/libraries/grbl"
 
@@ -75,9 +75,9 @@ echo "        Disabling HOMING_CYCLE_1 to support COREXY... \c"
 sed -i -e 's/^#define HOMING_CYCLE_1/\/\/#define HOMING_CYCLE_1/' "$FILE"
 check_return $?
 
-# Change: SPINDLE_MAX_RPM to low rotation (tool speed)
-echo "        Changing SPINDLE_MAX_RPM to low rotation (tool speed)... \c"
-sed -i -e 's/^#define SPINDLE_MAX_RPM 1000.0/#define SPINDLE_MAX_RPM 90.0/' "$FILE"
+# Change: SPINDLE_MAX_RPM to laser resolution
+echo "        Changing SPINDLE_MAX_RPM to laser resolution... \c"
+sed -i -e 's/^#define SPINDLE_MAX_RPM 1000.0/#define SPINDLE_MAX_RPM 256.0/' "$FILE"
 check_return $?
 
 # Invoke xc
