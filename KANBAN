@@ -5,7 +5,10 @@
   - (Mechanics) Bluetooth module support - Design
   - (Mechanics) Bluetooth module support - Install
   - (Electronics) DRV8825 - Swap stepper motors drivers to better resolution
-  - (Electronics) Endstop - Cabling
+  - (Electronics) Endstop X+ - Cabling
+  - (Electronics) Endstop X- - Cabling
+  - (Electronics) Endstop Y+ - Cabling
+  - (Electronics) Endstop Y+ - Cabling
   - (Electronics) Bluetooth module - Install
   - (Electronics) Bluetooth module - Cabling
   - (Electronics) All tools connector - Cabling
@@ -23,13 +26,20 @@
   - (Mechanics) Pen holder - Print
   - (Electronics) Driver fan - Install
   - (Electronics) Driver fan - Build fan driver
+  - (Software) Endstop X+ - Understand behavior
+  - (Software) Endstop X- - Understand behavior
+  - (Software) Endstop Y+ - Understand behavior
+  - (Software) Endstop Y- - Understand behavior
 
 - 'DOING':
   - (Software) Driver fan - Add start fan and stop fan commands to template
   - (Software) Driver fan - How to control
   - (Software) Driver fan - How to sense
   - (Mechanics) All tools support - Design
-  - (Mechanics) Endstop support - Design
+  - (Mechanics) Endstop X+ - Design
+  - (Mechanics) Endstop X- - Design
+  - (Mechanics) Endstop Y+ - Design
+  - (Mechanics) Endstop Y- - Design
   - (Mechanics) Pen holder - Design
 
 - 'TESTING':

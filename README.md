@@ -108,7 +108,7 @@ Diagram by http://busyducks.com/ascii-art-arduinos
   8 |   8 | digital   | output    | Stepper Enable/Disable                   
   9 |   9 | digital   | input     | Limit x-axis                             
  10 |  10 | digital   | input     | Limit y-axis                             
- 11 |  11 | digital   | input     | Limit z-axis                             
+ 11 |  11 | PWM       | input     | Limit z-axis                             
  12 |  12 | digital   | output    | Spindle Enable                           
  13 |  13 | digital   | output    | Spindle Direction                        
  14 |   0 | digital   | input     | Reset/Abort                              
@@ -125,6 +125,10 @@ Diagram by http://busyducks.com/ascii-art-arduinos
 
 Technical specifications:
 - Version: 3.00
+
+Connected at:
+- Arduino: Digital Pin 11
+- CNC Shield: Z+ end stop pin
 
 ## Stepper drivers
 CNC Shield has 3 jumpers to configure each axes resolution.
@@ -208,6 +212,18 @@ List of Supported G-Codes in Grbl v0.9 Master:
   - Spindle Control: M3, M4, M5
   - Valid Non-Command Words: F, I, J, K, L, N, P, R, S, T, X, Y, Z
 
+### Control
+
+#### Spindle
+feeding it an S command from zero to what ever you have $30 at.
+
+https://github.com/gnea/grbl/wiki/Grbl-v1.1-Laser-Mode
+
+https://github.com/gnea/grbl/wiki/Grbl-v1.1-Jogging
+
+https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration
+
+
 # Tools
 
 ## Pen holder
@@ -231,5 +247,5 @@ Technical specifications:
 ---
 
 [Arduino Uno]: https://www.arduino.cc/en/Main/arduinoBoardUno/#techspecs
-[Grbl web page]: https://github.com/grbl/grbl
-[Grbl configuring]: https://github.com/grbl/grbl/wiki/Configuring-Grbl-v0.9
+[Grbl web page]: https://github.com/gnea/grbl
+[Grbl configuring]: https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration

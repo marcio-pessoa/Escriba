@@ -1,7 +1,7 @@
-$$  ; View Grbl settings
-?   ; Current status
-G90 ; Absolute distance mode
-G21 (All units in mm)
+$$   ; View Grbl settings
+?    ; Current status
+G90  ; Absolute distance mode
+G21  ; All units in mm
 
 (Start cutting path id: rect3336)
 (Change tool to Default tool)
@@ -19,4 +19,3 @@ G00 Z5.000000
 (End cutting path id: rect3336)
 
 G28  ; Park
-

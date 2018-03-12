@@ -1,5 +1,6 @@
-$$  ; View Grbl settings
-?   ; Current status
-$G  ; View gcode parser state
-G90 ; Absolute distance mode
-G21 ; All units in mm
+$I   ; View build info
+$$   ; View Grbl settings
+?    ; View current status
+$G   ; View G-code parser state
+G90  ; Set absolute distance mode
+G21  ; Set all units in millimeters
