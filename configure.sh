@@ -9,6 +9,9 @@
 # Contributors: none
 #
 # Change log:
+# 2018-03-13
+#         Tested on: Grbl 1.1f.
+#
 # 2017-09-12
 #         Tested on: Grbl 0.9j.
 #         Enabled: COREXY.
@@ -23,9 +26,6 @@
 # Variables
 action=$1
 readonly WORKDIR="grbl"
-# readonly WORKDIR="grbl-servo"
-readonly LIBRARY_PATH="$HOME/Development/Escriba/Mark_I/$WORKDIR"
-readonly ARDUINO_PATH="$HOME/Development/Arduino/libraries/grbl"
 
 check_return() {
   return=$1
@@ -49,9 +49,6 @@ get_updates() {
 
 date +'Started at: %Y-%m-%d %H:%M:%S'
 
-unlink "$ARDUINO_PATH" >/dev/null 2>&1
-ln -s "$LIBRARY_PATH" "$ARDUINO_PATH"
-
 cd $WORKDIR || exit
 FILE="config.h"
 
@@ -72,7 +69,7 @@ check_return $?
 
 # Disable: HOMING_CYCLE_1 to support COREXY
 echo "        Disabling HOMING_CYCLE_1 to support COREXY... \c"
-sed -i -e 's/^#define HOMING_CYCLE_1/\/\/#define HOMING_CYCLE_1/' "$FILE"
+sed -i -e 's/^#define HOMING_CYCLE_1/\/\/ #define HOMING_CYCLE_1/' "$FILE"
 check_return $?
 
 # Change: SPINDLE_MAX_RPM to laser resolution

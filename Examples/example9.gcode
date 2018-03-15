@@ -1,15 +1,15 @@
-$$   ; View Grbl settings
-?    ; Current status
-G90  ; Absolute distance mode
-G21  ; All units in mm
+$I  ; View build info
+$G  ; View G-code parser state
+$$  ; View Grbl settings
+?  ; View current status
 
-(Start cutting path id: path3360)
-(Change tool to Default tool)
+G90  ; Set absolute distance mode
+G21  ; Set all units in millimeters
 
 G00 Z5.000000
 G00 X49.999999 Y96.553694
 
-G01 Z-0.125000 F1000.0(Penetrate)
+G01 Z-0.125000 F1000.0  ; Penetrate
 G01 X62.963583 Y70.286605 Z-0.125000 F4000.000000
 G01 X91.951040 Y66.074478 Z-0.125000
 G01 X70.975520 Y45.628398 Z-0.125000
@@ -22,6 +22,5 @@ G01 X37.036412 Y70.286605 Z-0.125000
 G01 X49.999999 Y96.553694 Z-0.125000
 G00 Z5.000000
 
-(End cutting path id: path3360)
-
-G28  ; Park
+G28  ; Go to home position
+M2  ; Program end

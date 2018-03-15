@@ -1,6 +1,10 @@
 # CHANGELOG
 Escriba Mark I - Ploter, Change log
 
+# [1.1f] - 2018-03-13
+###
+- Uplpad Grbl 1.1f.
+
 ## [0.9j] - 2017-09-12
 ### Changed
 - Enable: CoreXY.

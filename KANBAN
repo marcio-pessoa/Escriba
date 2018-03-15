@@ -30,6 +30,10 @@
   - (Software) Endstop X- - Understand behavior
   - (Software) Endstop Y+ - Understand behavior
   - (Software) Endstop Y- - Understand behavior
+  - (Mechanics) Endstop X+ - Install
+  - (Mechanics) Endstop X- - Install
+  - (Mechanics) Endstop Y+ - Install
+  - (Mechanics) Endstop Y- - Install
 
 - 'DOING':
   - (Software) Driver fan - Add start fan and stop fan commands to template

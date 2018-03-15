@@ -24,6 +24,8 @@
 ; 2017-11-11
 ;         Experimental version.
 
+$I  ; View build info
+
 ; Tool configuration
 $30=100.000  ; Max spindle speed (RPM)
 $31=0.  ; Min spindle speed (RPM)

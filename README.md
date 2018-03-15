@@ -195,7 +195,7 @@ Set the baud rate to 115200 as 8-N-1 (8-bits, no parity, and 1-stop bit.)
 [Grbl configuring]
 
 ### G-Code
-List of Supported G-Codes in Grbl v0.9 Master:
+List of Supported G-Codes in Grbl v1.1:
   - Non-Modal Commands: G4, G10L2, G10L20, G28, G30, G28.1, G30.1, G53, G92, G92.1
   - Motion Modes: G0, G1, G2, G3, G38.2, G38.3, G38.4, G38.5, G80
   - Feed Rate Modes: G93, G94
@@ -223,6 +223,17 @@ https://github.com/gnea/grbl/wiki/Grbl-v1.1-Jogging
 
 https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration
 
+GRBL 0.9i with servo motor support. Use the PIN D11 to drive the servo. Use the commands M03 Sxxx (xxx between 0 and 255) to rotate the servo between 0-180. The command M05 turn the servo to zero degrees.
+
+you can change the pulse duration in the file spindle_control.c:
+
+define RC_SERVO_SHORT 15 // Timer ticks for 0.6ms pulse duration (9 for 0.6ms)
+
+define RC_SERVO_LONG 32 // Timer ticks for 2.5 ms pulse duration (39 for 2.5ms)
+
+define RC_SERVO_INVERT 1 // Uncomment to invert servo direction
+
+If you want to have the servo working from 0 --> 180 degrees change RC_SERVO_SHORT and put 9, RC_SERVO_LONG and put 39 If you want invert the servo direction uncomment the line above.
 
 # Tools
 

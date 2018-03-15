@@ -1,8 +1,9 @@
-$I   ; View build info
-$$   ; View Grbl settings
-?    ; View current status
-$G   ; View G-code parser state
-G91  ; Set absolute distance mode
+$I  ; View build info
+$G  ; View G-code parser state
+$$  ; View Grbl settings
+?  ; View current status
+
+G91  ; Set relative distance mode
 G21  ; Set all units in millimeters
 
 G0 Y170
@@ -56,3 +57,4 @@ G0 Y-170
 G0 X-350
 
 G28  ; Go to home position
+M2  ; Program end
