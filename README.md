@@ -248,12 +248,13 @@ Technical specifications:
 
 Technical specifications:
 - Power: 2.5 W
+- Voltage: 12 VDC
 - Version: 2
 - PWM: Yes
 - Cut
   - Paper
   - Cardboard
-  - Acrilic
+  - Acrilic?
 
 ---
 
