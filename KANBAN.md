@@ -1,5 +1,5 @@
 # KANBAN
-Escriba Mark I - Ploter
+Escriba Mark I - Light CNC
 
 |**BACKLOG**                                                             |**TO DO**                                  |**DOING**                                                              |**TESTING**                                       |**DONE**                                                           |
 |:-----------------------------------------------------------------------|:------------------------------------------|:----------------------------------------------------------------------|:-------------------------------------------------|:------------------------------------------------------------------|
@@ -23,5 +23,5 @@ Escriba Mark I - Ploter
 |(Software) SVG to G-code - How to via CLI                               |                                           |                                                                       |                                                  |(Mechanics) x axis SCV8UU - Install                                |
 |(Video) Demonstration - Create                                          |                                           |                                                                       |                                                  |(Mechanics) x axis SK8 - Install                                   |
 |(Video) Demonstration - Building Fractal                                |                                           |                                                                       |                                                  |(Mechanics) x axis acrylic base - Design                           |
-*17 rows omitted*
+*12 rows omitted*
 

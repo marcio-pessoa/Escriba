@@ -1,4 +1,4 @@
-# Escriba Mark I - Ploter
+# Escriba Mark I - Light CNC
 
 [Change log](CHANGELOG.md)
 

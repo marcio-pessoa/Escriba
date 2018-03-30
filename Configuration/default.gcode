@@ -1,4 +1,4 @@
-; default.gcode, Escriba Mark I - Ploter, G-code default configuration file
+; default.gcode, Escriba Mark I - Light CNC, G-code default configuration file
 ; This program set defaults to Escriba.
 ; 
 ; Author: Márcio Pessoa <marcio.pessoa@sciemon.com>

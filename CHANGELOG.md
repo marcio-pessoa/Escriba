@@ -1,5 +1,5 @@
 # CHANGELOG
-Escriba Mark I - Ploter, Change log
+Escriba Mark I - Light CNC, Change log
 
 # [1.1f] - 2018-03-13
 ###
