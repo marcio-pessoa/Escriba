@@ -48,8 +48,11 @@
 
 - 'TESTING':
   - (Software) Driver fan - Test commands (M7, M8, M9)
+  - (Mechanics) Fan Protection Grid - Install
 
 - 'DONE':
+  - (Mechanics) Fan Protection Grid - Finish
+  - (Mechanics) Fan Protection Grid - Cut
   - (Electronics) Stepper motor 2 - Cabling
   - (Electronics) Stepper motor 1 - Cabling
   - (Electronis) Driver fan - How to install
