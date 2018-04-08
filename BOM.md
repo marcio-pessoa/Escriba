@@ -49,7 +49,7 @@ Escriba Mark I - Light CNC, Bill of materials
 |     8 | Screw_M5x18mm        | Pending        | Pending    | Pending    | each |   0.00 |  0.00 |   0.00 |
 |    24 | Screw_M4x14mm        |   182015074419 | 2017-08-15 | 2018-03-26 | each |   3.79 |  0.24 |   4.03 |
 |    50 | Acrylic_Tube_8mm     | Pending        | Pending    | Pending    | cm   |   0.00 |  0.00 |   0.00 |
-|     4 | Washer_M4            |   172371032208 | 2017-08-15 | 2018-03-26 | each |   0.01 |  0.01 |   0.02 |
+|     4 | Washer_M4            |   172371032208 | 2017-08-15 | 2018-03-26 | each |   0.09 |  0.01 |   0.10 |
 |     1 | Laser_Glasses        | 87215394438514 | 2017-10-14 | 2018-03-08 | each |  19.84 |  0,07 |  19.91 |
 |     8 | Adhesive_Feet        | -              | 2014-dd-dd | 2014-dd-dd | each |   0.00 |  0.00 |   0.00 |
 |     1 | PSU_12VDC/5A         | -              | 2015-mm-dd | 2015-mm-dd | each |   0.00 |  0.00 |   0.00 |
