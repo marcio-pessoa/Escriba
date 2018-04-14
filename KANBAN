@@ -4,6 +4,11 @@
   - (Mechanics) Pen holder - Install
   - (Mechanics) Bluetooth module support - Design
   - (Mechanics) Bluetooth module support - Install
+  - (Mechanics) Quick release clamp - Install
+  - (Mechanics) Quick release plate for laser module - Install
+  - (Mechanics) Quick release plate for pen holder - Install
+  - (Mechanics) Swap x axis road for steel tube
+  - (Electronics) Pass stepper motor inside steel tube
   - (Electronics) DRV8825 - Swap stepper motors drivers to better resolution
   - (Electronics) Endstop X+ - Cabling
   - (Electronics) Endstop X- - Cabling

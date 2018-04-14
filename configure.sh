@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# configure.sh
+# configure.sh, Escriba Mark I - Light CNC
 #
 # Description:
 #   Automatic configuration script.
