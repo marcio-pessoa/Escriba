@@ -51,7 +51,7 @@ Escriba Mark I - Light CNC, Bill of materials
 |    10 | Screw_M5x20mm        |   222714655541 | 2017-12-23 | Pending    | each |   2.05 |  0.13 |   2.18 |
 |    10 | Screw_M5x25mm        |   222714655541 | 2017-12-23 | Pending    | each |   2.05 |  0.13 |   2.18 |
 |    10 | Screw_M4x25mm        |   222714655541 | 2018-03-26 | Pending    | each |   1.79 |  0.10 |   1.89 |
-|     8 | Screw_M5x18mm        |   222714655541 | Pending    | 2018-04-12 | each |   2.30 |  0.15 |   2.45 |
+|     8 | Screw_M5x18mm        |   222714655541 | 2018-04-12 | pending    | each |   2.30 |  0.15 |   2.45 |
 |     1 | Quick_release_clamp  |   253256851967 | 2018-04-09 | Pending    | each |   7.04 |  0.45 |   7.49 |
 |     1 | Quick_release_plate  |   253256851967 | 2018-04-09 | Pending    | each |   0.00 |  0.00 |   0.00 |
 |     1 | Quick_release_plate  |   272048307553 | 2018-04-09 | Pending    | each |   2.91 |  0.11 |   3.02 |

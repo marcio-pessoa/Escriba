@@ -2,6 +2,7 @@ $I  ; View build info
 $G  ; View G-code parser state
 $$  ; View Grbl settings
 ?  ; View current status
+; $c  ;  Check G-code mode
 
 G90  ; Set absolute distance mode
 G21  ; Set all units in millimeters
