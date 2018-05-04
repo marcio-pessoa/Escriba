@@ -1,6 +1,6 @@
 ; Escriba Mark I - Light CNC
-; Header
 ;
+; Header
 $I  ; View build info
 $G  ; View G-code parser state
 $$  ; View Grbl settings
