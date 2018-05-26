@@ -25,7 +25,7 @@
 
 # Variables
 action=$1
-readonly WORKDIR="grbl"
+readonly WORKDIR="grbl/grbl"
 
 check_return() {
   return=$1
