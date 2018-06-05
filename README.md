@@ -215,25 +215,44 @@ List of Supported G-Codes in Grbl v1.1:
 ### Control
 
 #### Spindle
-feeding it an S command from zero to what ever you have $30 at.
+Spindle are controled using PWM PIN 11 to drive the tool.
+
+Use the command Sxxx (xxx between 0 and 255) to:
+  - Set laser intensity.
+  - Rotate servo between 0 and 180 degrees.
+  
+##### M3
+- Constant laser power mode simply keeps the laser power as programmed, regardless if the machine is moving, accelerating, or stopped. This provides better control of the laser state. With a good G-code program, this can lead to more consistent cuts in more difficult materials.
+
+- For a clean cut and prevent scorching with M3 constant power mode, it's a good idea to add lead-in and lead-out motions around the line you want to cut to give some space for the machine to accelerate and decelerate.
+
+NOTE: M3 can be used to keep the laser on for focusing.
+
+##### M4
+- Dynamic laser power mode will automatically adjust laser power based on the current speed relative to the programmed rate. It essentially ensures the amount of laser energy along a cut is consistent even though the machine may be stopped or actively accelerating. This is very useful for clean, precise engraving and cutting on simple materials across a large range of G-code generation methods by CAM programs. It will generally run faster and may be all you need to use.
+
+- Grbl calculates laser power based on the assumption that laser power is linear with speed and the material. Often, this is not the case. Lasers can cut differently at varying power levels and some materials may not cut well at a particular speed and/power. In short, this means that dynamic power mode may not work for all situations. Always do a test piece prior to using this with a new material or machine.
+
+- When not in motion, M4 dynamic mode turns off the laser. It only turns on when the machine moves. This generally makes the laser safer to operate, because, unlike M3, it will never burn a hole through your table, if you stop and forget to turn M3 off in time.
+
+##### M5 
+The command M05 set PWM to PIN 11 to zero.
+
+##### Aditional information
+You can change the pulse duration in the file spindle_control.c:
+
+``` c++
+define RC_SERVO_SHORT 15 // Timer ticks for 0.6ms pulse duration (9 for 0.6ms)
+define RC_SERVO_LONG 32 // Timer ticks for 2.5 ms pulse duration (39 for 2.5ms)
+define RC_SERVO_INVERT 1 // Uncomment to invert servo direction
+```
+If you want to have the servo working from 0 --> 180 degrees change RC_SERVO_SHORT and put 9, RC_SERVO_LONG and put 39 If you want invert the servo direction uncomment the line above.
 
 https://github.com/gnea/grbl/wiki/Grbl-v1.1-Laser-Mode
 
 https://github.com/gnea/grbl/wiki/Grbl-v1.1-Jogging
 
 https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration
-
-GRBL 0.9i with servo motor support. Use the PIN D11 to drive the servo. Use the commands M03 Sxxx (xxx between 0 and 255) to rotate the servo between 0-180. The command M05 turn the servo to zero degrees.
-
-you can change the pulse duration in the file spindle_control.c:
-
-define RC_SERVO_SHORT 15 // Timer ticks for 0.6ms pulse duration (9 for 0.6ms)
-
-define RC_SERVO_LONG 32 // Timer ticks for 2.5 ms pulse duration (39 for 2.5ms)
-
-define RC_SERVO_INVERT 1 // Uncomment to invert servo direction
-
-If you want to have the servo working from 0 --> 180 degrees change RC_SERVO_SHORT and put 9, RC_SERVO_LONG and put 39 If you want invert the servo direction uncomment the line above.
 
 # Tools
 
@@ -254,6 +273,8 @@ Technical specifications:
 - Cut
   - Paper
   - Cardboard
+  - Wood
+  - Leather
   - Acrilic?
 
 ---
