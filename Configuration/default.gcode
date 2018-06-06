@@ -5,32 +5,39 @@
 ; Contributors: none
 ; 
 ; Change log:
+; 2018-06-06
+;         Enabled: Hard limits
+;                  $21=1
+; 
 ; 2018-05-29
-;         Added: Physics session
-;                  $20=0
-;                  $21=0
-;                  $22=0
-;
+;         Changed: Enhancing accuracy
+;                  $100=100.5  ; X steps/mm
+;                  $101=100.5  ; Y steps/mm
+; 
+; 2017-11-11
+;         Changed: Enhancing accuracy
+;                  $100=108  ; X steps/mm
+;                  $101=108  ; Y steps/mm
+;         Changed: Trying to be faster without loose precision
+;                  $110=10000.000  ; X Max rate, mm/min
+;                  $111=10000.000  ; Y Max rate, mm/min
+;                  $120=400.000  ; X Acceleration, mm/sec^2
+;                  $121=400.000  ; Y Acceleration, mm/sec^2
+; 
 ; 2017-11-11
 ;         Changed: Trying to be faster
-;                  $100=108
-;                  $101=108
-;                  $110=10000.000
-;                  $111=10000.000
-;                  $120=400.000
-;                  $121=400.000
-;
-; 2017-11-11
-;         Changed: Trying to be faster
-;                  $110=10000.000
-;                  $111=10000.000
-;                  $120=800.000
-;                  $121=800.000
-;
+;                  $110=10000.000  ; X Max rate, mm/min
+;                  $111=10000.000  ; Y Max rate, mm/min
+;                  $120=800.000  ; X Acceleration, mm/sec^2
+;                  $121=800.000  ; Y Acceleration, mm/sec^2
+; 
 ; 2017-11-11
 ;         Experimental version.
 
 $I  ; View build info
+$G  ; View G-code parser state
+$$  ; View current settings
+?  ; View current status
 
 ; Electronics
 $0=10  ; Step pulse, microseconds
@@ -50,8 +57,8 @@ $12=0.002  ; Arc tolerance, mm
 $13=0  ; Report inches, boolean
 
 ; Physics
-$20=1  ; Soft limits, boolean
-$21=0  ; Hard limits, boolean
+$20=0  ; Soft limits, boolean
+$21=1  ; Hard limits, boolean
 $22=0  ; Homing cycle, boolean
 
 ; Homing

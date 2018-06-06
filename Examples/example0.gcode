@@ -1,6 +1,6 @@
 $I  ; View build info
 $G  ; View G-code parser state
-$$  ; View Grbl settings
+$$  ; View current settings
 ?  ; View current status
 
 G91  ; Set relative distance mode

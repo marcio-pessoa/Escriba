@@ -39,6 +39,11 @@
   - (Mechanics) Endstop X- - Install
   - (Mechanics) Endstop Y+ - Install
   - (Mechanics) Endstop Y- - Install
+  - (Software) Hard limits - Configure ($21)
+  - (Software) Max travel settings - Configure ($130, $131, $132)
+  - (Software) Homing parameters - Configure ($23, $24, $25, $26, $27)
+  - (Software) Homing cycle - Configure ($22)
+  - (Software) Soft limits - Configure ($20)
 
 - 'DOING':
   - (Software) Driver fan - Add start fan and stop fan commands to template
@@ -52,6 +57,7 @@
   - (Mechanics) Pen holder - Design
 
 - 'TESTING':
+  - (Software) Precision - Calibrate
   - (Software) Driver fan - Test commands (M7, M8, M9)
   - (Mechanics) Fan Protection Grid - Install
 
