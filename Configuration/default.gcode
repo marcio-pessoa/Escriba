@@ -7,7 +7,7 @@
 ; Change log:
 ; 2018-06-06
 ;         Enabled: Hard limits
-;                  $21=1
+;                  $21=1  ; Hard limits, boolean
 ; 
 ; 2018-05-29
 ;         Changed: Enhancing accuracy

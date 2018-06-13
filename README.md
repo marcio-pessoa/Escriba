@@ -235,7 +235,7 @@ NOTE: M3 can be used to keep the laser on for focusing.
 
 - When not in motion, M4 dynamic mode turns off the laser. It only turns on when the machine moves. This generally makes the laser safer to operate, because, unlike M3, it will never burn a hole through your table, if you stop and forget to turn M3 off in time.
 
-##### M5 
+##### M5
 The command M05 set PWM to PIN 11 to zero.
 
 ##### Aditional information

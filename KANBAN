@@ -25,12 +25,12 @@
   - (Video) Demonstration - Create
   - (Video) Demonstration - Building Fractal
   - (Video) Demonstration - Foarm cut
-
-- 'TO DO':
   - (Mechanics) z axis servo motor - Install
   - (Mechanics) Pen holder - Print
-  - (Electronics) Driver fan - Install
+
+- 'TO DO':
   - (Electronics) Driver fan - Build fan driver
+  - (Electronics) Driver fan - Install
   - (Software) Endstop X+ - Understand behavior
   - (Software) Endstop X- - Understand behavior
   - (Software) Endstop Y+ - Understand behavior
@@ -39,6 +39,8 @@
   - (Mechanics) Endstop X- - Install
   - (Mechanics) Endstop Y+ - Install
   - (Mechanics) Endstop Y- - Install
+  - (Electronics) Endstop Y+ - Wiring
+  - (Electronics) Endstop Y- - Wiring
   - (Software) Hard limits - Configure ($21)
   - (Software) Max travel settings - Configure ($130, $131, $132)
   - (Software) Homing parameters - Configure ($23, $24, $25, $26, $27)
@@ -49,6 +51,7 @@
   - (Software) Driver fan - Add start fan and stop fan commands to template
   - (Software) Driver fan - How to control
   - (Software) Driver fan - How to sense
+  - (Software) Driver fan - Test commands (M7, M8, M9)
   - (Mechanics) All tools support - Design
   - (Mechanics) Endstop X+ - Design
   - (Mechanics) Endstop X- - Design
@@ -57,11 +60,12 @@
   - (Mechanics) Pen holder - Design
 
 - 'TESTING':
+  - (Electronics) Endstop X+ - Wiring
+  - (Electronics) Endstop X- - Wiring
   - (Software) Precision - Calibrate
-  - (Software) Driver fan - Test commands (M7, M8, M9)
-  - (Mechanics) Fan Protection Grid - Install
 
 - 'DONE':
+  - (Mechanics) Fan Protection Grid - Install
   - (Mechanics) Fan Protection Grid - Finish
   - (Mechanics) Fan Protection Grid - Cut
   - (Electronics) Stepper motor 2 - Cabling
