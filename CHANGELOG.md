@@ -1,12 +1,12 @@
 # CHANGELOG
 Escriba Mark I - Light CNC, Change log
 
-# [1.1f] - 2018-03-13
-###
-- Uplpad Grbl 1.1f.
+## [1.1f] - 2018-03-13
+### Changed
+- Uploaded: Grbl 1.1f.
 
 ## [0.9j] - 2017-09-12
-### Changed
+### Added
 - Enable: CoreXY.
 
 ### Changed
