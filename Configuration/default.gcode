@@ -1,19 +1,19 @@
 ; default.gcode, Escriba Mark I - Light CNC, G-code default configuration file
 ; This program set defaults to Escriba.
-; 
+;
 ; Author: Márcio Pessoa <marcio.pessoa@sciemon.com>
 ; Contributors: none
-; 
+;
 ; Change log:
 ; 2018-06-06
 ;         Enabled: Hard limits
 ;                  $21=1  ; Hard limits, boolean
-; 
+;
 ; 2018-05-29
 ;         Changed: Enhancing accuracy
 ;                  $100=100.5  ; X steps/mm
 ;                  $101=100.5  ; Y steps/mm
-; 
+;
 ; 2017-11-11
 ;         Changed: Enhancing accuracy
 ;                  $100=108  ; X steps/mm
@@ -23,14 +23,14 @@
 ;                  $111=10000.000  ; Y Max rate, mm/min
 ;                  $120=400.000  ; X Acceleration, mm/sec^2
 ;                  $121=400.000  ; Y Acceleration, mm/sec^2
-; 
+;
 ; 2017-11-11
 ;         Changed: Trying to be faster
 ;                  $110=10000.000  ; X Max rate, mm/min
 ;                  $111=10000.000  ; Y Max rate, mm/min
 ;                  $120=800.000  ; X Acceleration, mm/sec^2
 ;                  $121=800.000  ; Y Acceleration, mm/sec^2
-; 
+;
 ; 2017-11-11
 ;         Experimental version.
 
@@ -69,8 +69,8 @@ $26=250  ; Homing debounce, milliseconds
 $27=1.000  ; Homing pull-off, mm
 
 ; Tool configuration
-$30=255.000  ; Max spindle speed, RPM
-$31=0.000  ; Min spindle speed, RPM
+$30=2500.000  ; Max laser power, Watts
+$31=0.000  ; Min laser power, Watts
 $32=1  ; Laser mode, boolean
 
 ; Steps to milimeters

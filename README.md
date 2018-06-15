@@ -179,14 +179,14 @@ Technical specifications:
 # Software
 
 ## Grbl
-> "Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. It will run on a vanilla Arduino (Duemillanove/Uno) as long as it sports an Atmega 328. 
-> 
+> "Grbl is a no-compromise, high performance, low cost alternative to parallel-port-based motion control for CNC milling. It will run on a vanilla Arduino (Duemillanove/Uno) as long as it sports an Atmega 328.
+>
 > The controller is written in highly optimized C utilizing every clever feature of the AVR-chips to achieve precise timing and asynchronous operation. It is able to maintain up to 30kHz of stable, jitter free control pulses.
-> 
+>
 > It accepts standards-compliant g-code and has been tested with the output of several CAM tools with no problems. Arcs, circles and helical motion are fully supported, as well as, all other primary g-code commands. Macro functions, variables, and most canned cycles are not supported, but we think GUIs can do a much better job at translating them into straight g-code anyhow.
-> 
+>
 > Grbl includes full acceleration management with look ahead. That means the controller will look up to 18 motions into the future and plan its velocities ahead to deliver smooth acceleration and jerk-free cornering."
-> 
+>
 > -- From: [Grbl web page]
 
 ### Configuring
@@ -220,7 +220,7 @@ Spindle are controled using PWM PIN 11 to drive the tool.
 Use the command Sxxx (xxx between 0 and 255) to:
   - Set laser intensity.
   - Rotate servo between 0 and 180 degrees.
-  
+
 ##### M3
 - Constant laser power mode simply keeps the laser power as programmed, regardless if the machine is moving, accelerating, or stopped. This provides better control of the laser state. With a good G-code program, this can lead to more consistent cuts in more difficult materials.
 
@@ -270,12 +270,17 @@ Technical specifications:
 - Voltage: 12 VDC
 - Version: 2
 - PWM: Yes
-- Cut
-  - Paper
-  - Cardboard
-  - Wood
-  - Leather
-  - Acrilic?
+
+### Draw
+ Material  | Power (mW) | Feed (ms)
+-----------|------------|-----------
+ Paper     |       980  |      1000
+ Cardboard |            |          
+ Foarm     |            |
+ Wood      |            |          
+ Leather   |            |          
+ Acrilic   |            |          
+
 
 ---
 

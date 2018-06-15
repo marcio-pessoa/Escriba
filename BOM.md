@@ -59,9 +59,8 @@ Escriba Mark I - Light CNC, Bill of materials
 |     1 | Pen_holder_parts     | Pending        | Pending    | Pending    | each |        |       |        |
 |    10 | Elastic              | Pending        | Pending    | Pending    | each |        |       |        |
 
-Currency: USD
-
-International IOF: 6.38%
+Currency: USD<br/>
+International IOF: 6.38%<br/>
 Domestic IOF: 0.38%
 
 Total cost: $328.88
