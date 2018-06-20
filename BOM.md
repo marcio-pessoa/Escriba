@@ -53,7 +53,7 @@ Escriba Mark I - Light CNC, Bill of materials
 |     8 | Screw_M5x18mm        |   222714655541 | 2018-04-12 | pending    | each |   2.30 |  0.15 |   2.45 |
 |     1 | Quick_release_clamp  |   253256851967 | 2018-04-09 | 2018-06-06 | each |   7.04 |  0.45 |   7.49 |
 |     1 | Quick_release_plate  |   253256851967 | 2018-04-09 | 2018-06-06 | each |   0.00 |  0.00 |   0.00 |
-|     1 | Quick_release_plate  |   272048307553 | 2018-04-09 | Pending    | each |   2.91 |  0.11 |   3.02 |
+|     1 | Quick_release_plate  |   272048307553 | 2018-04-09 | 2018-06-20 | each |   2.91 |  0.11 |   3.02 |
 |     2 | LM8UU                |   370982181382 | 2017-12-09 | 2018-04-11 | each |   1.08 |  0.07 |   1.15 |
 |   500 | Steel_tube_8x6mm     |   390972746654 | 2018-04-12 | 2018-05-28 | mm   |   8.33 |  0.49 |   8.82 |
 |     1 | Pen_holder_parts     | Pending        | Pending    | Pending    | each |        |       |        |
