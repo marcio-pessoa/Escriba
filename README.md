@@ -65,58 +65,58 @@ Technical specifications:
 - [Arduino Uno] R3
 
 ### Diagram
-                                 .-----.                     
-    .----[PWR]-------------------| USB |--.                  
-    |                            '-----'  |                  
-    |         GND/RST2  [ ][ ]            |                  
-    |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5             
-    |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4             
-    |                             AREF[ ] |                  
-    |                              GND[ ] |                  
-    | [ ]NC                     SCK/13[ ] |   B5             
-    | [ ]v.ref                 MISO/12[ ] |   .              
-    | [ ]RST                   MOSI/11[ ]~|   .              
-    | [ ]3V3    +---+               10[ ]~|   .              
-    | [ ]5v     | A |                9[ ]~|   .              
-    | [ ]GND   -| R |-               8[ ] |   B0             
-    | [ ]GND   -| D |-                    |                  
-    | [ ]Vin   -| U |-               7[ ] |   D7             
-    |          -| I |-               6[ ]~|   .              
-    | [ ]A0    -| N |-               5[ ]~|   .              
-    | [ ]A1    -| O |-               4[ ] |   .              
-    | [ ]A2     +---+           INT1/3[ ]~|   .              
-    | [ ]A3                     INT0/2[ ] |   .              
-    | [ ]A4/SDA  RST SCK MISO     TX>1[ ] |   .              
-    | [ ]A5/SCL  [ ] [ ] [ ]      RX<0[ ] |   D0             
-    |            [ ] [ ] [ ]              |                  
-    '--.                         .--------'                  
-        \_______________________/                            
+                                 .-----.
+    .----[PWR]-------------------| USB |--.
+    |                            '-----'  |
+    |         GND/RST2  [ ][ ]            |
+    |       MOSI2/SCK2  [ ][ ]  A5/SCL[ ] |   C5
+    |          5V/MISO2 [ ][ ]  A4/SDA[ ] |   C4
+    |                             AREF[ ] |
+    |                              GND[ ] |
+    | [ ]NC                     SCK/13[ ] |   B5
+    | [ ]v.ref                 MISO/12[ ] |   .
+    | [ ]RST                   MOSI/11[ ]~|   .
+    | [ ]3V3    +---+               10[ ]~|   .
+    | [ ]5v     | A |                9[ ]~|   .
+    | [ ]GND   -| R |-               8[ ] |   B0
+    | [ ]GND   -| D |-                    |
+    | [ ]Vin   -| U |-               7[ ] |   D7
+    |          -| I |-               6[ ]~|   .
+    | [ ]A0    -| N |-               5[ ]~|   .
+    | [ ]A1    -| O |-               4[ ] |   .
+    | [ ]A2     +---+           INT1/3[ ]~|   .
+    | [ ]A3                     INT0/2[ ] |   .
+    | [ ]A4/SDA  RST SCK MISO     TX>1[ ] |   .
+    | [ ]A5/SCL  [ ] [ ] [ ]      RX<0[ ] |   D0
+    |            [ ] [ ] [ ]              |
+    '--.                         .--------'
+        \_______________________/
 
 Diagram by http://busyducks.com/ascii-art-arduinos
 
 ### Pin designation
- id | pin |   type    | direction |               description                
+ id | pin |   type    | direction |               description
 ----|-----|-----------|-----------|--------------------------------------------
-  0 |   0 | digital   | input     | Serial communication                     
-  1 |   1 | digital   | output    | Serial communication                     
-  2 |   0 | digital   | output    | Step Pulse x-axis                        
-  3 |   3 | digital   | output    | Step Pulse y-axis                        
-  4 |   4 | digital   | output    | Step Pulse z-axis                        
-  5 |   5 | digital   | output    | Direction x-axis                         
-  6 |   6 | digital   | output    | Direction y-axis                         
-  7 |   7 | digital   | output    | Direction z-axis                         
-  8 |   8 | digital   | output    | Stepper Enable/Disable                   
-  9 |   9 | digital   | input     | Limit x-axis                             
- 10 |  10 | digital   | input     | Limit y-axis                             
- 11 |  11 | PWM       | input     | Limit z-axis                             
- 12 |  12 | digital   | output    | Spindle Enable                           
- 13 |  13 | digital   | output    | Spindle Direction                        
- 14 |   0 | digital   | input     | Reset/Abort                              
- 15 |   1 | digital   | input     | Feed Hold                                
- 16 |   2 | digital   | input     | Cycle Start/Resume                       
- 17 |   3 | digital   | output    | Coolant Enable                           
- 18 |   4 | digital   | input     | (not used/reserved)                      
- 19 |   5 | digital   | input     | Probe                                    
+  0 |   0 | digital   | input     | Serial communication
+  1 |   1 | digital   | output    | Serial communication
+  2 |   0 | digital   | output    | Step Pulse x-axis
+  3 |   3 | digital   | output    | Step Pulse y-axis
+  4 |   4 | digital   | output    | Step Pulse z-axis
+  5 |   5 | digital   | output    | Direction x-axis
+  6 |   6 | digital   | output    | Direction y-axis
+  7 |   7 | digital   | output    | Direction z-axis
+  8 |   8 | digital   | output    | Stepper Enable/Disable
+  9 |   9 | digital   | input     | Limit x-axis
+ 10 |  10 | digital   | input     | Limit y-axis
+ 11 |  11 | PWM       | input     | Limit z-axis
+ 12 |  12 | digital   | output    | Spindle Enable
+ 13 |  13 | digital   | output    | Spindle Direction
+ 14 |   0 | digital   | input     | Reset/Abort
+ 15 |   1 | digital   | input     | Feed Hold
+ 16 |   2 | digital   | input     | Cycle Start/Resume
+ 17 |   3 | digital   | output    | Coolant Enable
+ 18 |   4 | digital   | input     | (not used/reserved)
+ 19 |   5 | digital   | input     | Probe
 
 ## CNC Shield
 ![PCB description](Documents/CNC_Stepper_Motor_Shield_v3.00_Draft.jpg)
@@ -275,11 +275,11 @@ Technical specifications:
  Material  | Power (mW) | Feed (ms)
 -----------|------------|-----------
  Paper     |       980  |      1000
- Cardboard |            |          
+ Cardboard |            |
  Foarm     |            |
- Wood      |            |          
- Leather   |            |          
- Acrilic   |            |          
+ Wood      |            |
+ Leather   |            |
+ Acrilic   |            |
 
 
 ---
