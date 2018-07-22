@@ -12,7 +12,6 @@ Escriba Mark I - Light CNC, Bill of materials
 |     2 | GT2_16T              |   272234427429 | 2016-09-09 | 2016-10-25 | each |   0.00 |  0.00 |   0.00 |
 |     4 | GT2_20N_pulley       |   131648026845 | 2016-07-21 | 2016-09-dd | each |  10.98 |  0.69 |  11.67 |
 |     1 | GT2_20T_pulley       |   282052333232 | 2016-08-09 | 2016-09-1d | each |   2.35 |  0.14 |   2.49 |
-|     1 | Servo_9g             |   252433665853 | 2016-09-09 | 2016-10-04 | each |   3.56 |  0.22 |   3.78 |
 |     1 | NEMA17_stepper       |   331871059726 | 2019-09-25 | 2016-10-28 | each |  10.38 |  0.66 |  11.04 |
 |     1 | NEMA17_stepper       |   331871062088 | 2016-10-29 | 2017-mm-dd | each |  10.38 |  0.66 |  11.04 |
 |     2 | NEMA17_fastener      |   322123572546 | 2016-09-25 | 2016-11-17 | each |   7.87 |  0.50 |   8.37 |
@@ -59,6 +58,7 @@ Escriba Mark I - Light CNC, Bill of materials
 |   500 | Steel_tube_8x6mm     |   390972746654 | 2018-04-12 | 2018-05-28 | mm   |   8.33 |  0.49 |   8.82 |
 |     1 | Pen_holder_parts     | Pending        | Pending    | Pending    | each |        |       |        |
 |    10 | Elastic              | Pending        | Pending    | Pending    | each |        |       |        |
+|     1 | Servo_9g             |                |            |            | each |        |       |        |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
