@@ -58,10 +58,10 @@ Escriba Mark I - Light CNC, Bill of materials
 |   500 | Steel_tube_8x6mm     |   390972746654 | 2018-04-12 | 2018-05-28 | mm   |   8.33 |  0.49 |   8.82 |
 |     1 | Pen_holder_parts     | Pending        | Pending    | Pending    | each |        |       |        |
 |    10 | Elastic              | Pending        | Pending    | Pending    | each |        |       |        |
-|     1 | Servo_9g             |                |            |            | each |        |       |        |
+|     1 | Servo_9g             | Pending        | Pending    | Pending    | each |        |       |        |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
 Domestic IOF: 0.38%
 
-Total cost: $328.88
+Total cost: $325.10

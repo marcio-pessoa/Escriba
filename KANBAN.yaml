@@ -1,70 +1,76 @@
+---
 - 'BACKLOG':
-  - (Mechanics) Pen holder - Print
-  - (Mechanics) Pen holder - Mount
-  - (Mechanics) Pen holder - Install
-  - (Mechanics) Bluetooth module support - Design
-  - (Mechanics) Bluetooth module support - Install
-  - (Mechanics) Quick release clamp - Install
-  - (Mechanics) Quick release plate for laser module - Install
-  - (Mechanics) Quick release plate for pen holder - Install
-  - (Mechanics) Swap x axis road for steel tube
-  - (Electronics) Pass stepper motor inside steel tube
-  - (Electronics) DRV8825 - Swap stepper motors drivers to better resolution
-  - (Electronics) Endstop X+ - Cabling
-  - (Electronics) Endstop X- - Cabling
-  - (Electronics) Endstop Y+ - Cabling
-  - (Electronics) Endstop Y+ - Cabling
-  - (Electronics) Bluetooth module - Install
-  - (Electronics) Bluetooth module - Cabling
-  - (Electronics) All tools connector - Cabling
-  - (Electronics) Pen holder - Cabling
-  - (Electronics) Laser - Cabling
-  - (Software) Slic3r - Install
-  - (Software) Slic3r - Configure
-  - (Software) SVG to G-code - How to via CLI
-  - (Video) Demonstration - Create
-  - (Video) Demonstration - Building Fractal
-  - (Video) Demonstration - Foarm cut
-  - (Mechanics) z axis servo motor - Install
-  - (Mechanics) Pen holder - Print
-
-- 'TO DO':
-  - (Electronics) Driver fan - Build fan driver
-  - (Electronics) Driver fan - Install
-  - (Software) Endstop X+ - Understand behavior
-  - (Software) Endstop X- - Understand behavior
-  - (Software) Endstop Y+ - Understand behavior
-  - (Software) Endstop Y- - Understand behavior
+  - (Mechanics) Endstop X+ - Design
+  - (Mechanics) Endstop X- - Design
+  - (Mechanics) Endstop Y+ - Design
+  - (Mechanics) Endstop Y- - Design
+  - (Mechanics) Endstop X+ - Build
+  - (Mechanics) Endstop X- - Build
+  - (Mechanics) Endstop Y+ - Build
+  - (Mechanics) Endstop Y- - Build
   - (Mechanics) Endstop X+ - Install
   - (Mechanics) Endstop X- - Install
   - (Mechanics) Endstop Y+ - Install
   - (Mechanics) Endstop Y- - Install
   - (Electronics) Endstop Y+ - Wiring
   - (Electronics) Endstop Y- - Wiring
+  - (Software) Endstop X+ - Understand behavior
+  - (Software) Endstop X- - Understand behavior
+  - (Software) Endstop Y+ - Understand behavior
+  - (Software) Endstop Y- - Understand behavior
   - (Software) Hard limits - Configure ($21)
   - (Software) Max travel settings - Configure ($130, $131, $132)
   - (Software) Homing parameters - Configure ($23, $24, $25, $26, $27)
   - (Software) Homing cycle - Configure ($22)
   - (Software) Soft limits - Configure ($20)
+  - (Electronics) All tools connector - Design
+  - (Electronics) All tools connector - Cabling
+  - (Mechanics) Pen holder - Design
+  - (Mechanics) Pen holder - Design add servo motor
+  - (Mechanics) Pen holder - Print
+  - (Mechanics) Pen holder - Mount
+  - (Mechanics) Pen holder - servo motor Install
+  - (Electronics) Pen holder - Cabling
+  - (Mechanics) Quick release plate for pen holder - Install
+  - (Mechanics) Pen holder - Install
+  - (Electronics) Laser - Cabling
+  - (Electronics) DRV8825 - Swap stepper motors drivers to better resolution
+  - (Software) Slic3r - Install
+  - (Software) Slic3r - Configure
+  - (Software) SVG to G-code - How to via CLI
+  - (Electronics) Bluetooth module - Install
+  - (Electronics) Bluetooth module - Cabling
+  - (Mechanics) Bluetooth module - Support design
+  - (Mechanics) Bluetooth module - Support Install
+  - (Video) Demonstration - Create
+  - (Video) Demonstration - Drawing Fractal
+  - (Video) Demonstration - Foarm cut
 
-- 'DOING':
+- 'TO DO':
+  - (Electronics) Driver fan - Build fan driver
+  - (Electronics) Driver fan - Install
   - (Software) Driver fan - Add start fan and stop fan commands to template
   - (Software) Driver fan - How to control
   - (Software) Driver fan - How to sense
   - (Software) Driver fan - Test commands (M7, M8, M9)
-  - (Mechanics) All tools support - Design
-  - (Mechanics) Endstop X+ - Design
-  - (Mechanics) Endstop X- - Design
-  - (Mechanics) Endstop Y+ - Design
-  - (Mechanics) Endstop Y- - Design
-  - (Mechanics) Pen holder - Design
+
+- 'DOING':
+  - (Mechanics) y axis - Improve back support
+  - (Mechanics) y axis - Counterpoise - Design
+  - (Mechanics) y axis - Counterpoise - Build
+  - (Mechanics) y axis - Counterpoise - Install
 
 - 'TESTING':
+  - (Mechanics) Quick release clamp - Install
+  - (Mechanics) Quick release plate for laser module - Install
+
+- 'DONE':
+  - (Mechanics) Change x axis road for steel tube
+  - (Electronics) Pass stepper motor inside steel tube
+  - (Mechanics) All tools support - Design
   - (Electronics) Endstop X+ - Wiring
   - (Electronics) Endstop X- - Wiring
   - (Software) Precision - Calibrate
-
-- 'DONE':
   - (Mechanics) Fan Protection Grid - Install
   - (Mechanics) Fan Protection Grid - Finish
   - (Mechanics) Fan Protection Grid - Cut
