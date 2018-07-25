@@ -274,12 +274,12 @@ Technical specifications:
 ### Draw
  Material  | Power (mW) | Feed (ms)
 -----------|------------|-----------
- Paper     |       980  |      1000
- Cardboard |            |
- Foarm     |            |
- Wood      |            |
- Leather   |            |
- Acrilic   |            |
+ Paper     |        980 |      1000
+ Cardboard |            | 
+ Foarm     |            | 
+ Wood      |            | 
+ Leather   |            | 
+ Acrilic   |            | 
 
 
 ---
