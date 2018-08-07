@@ -72,9 +72,9 @@ echo "        Disabling HOMING_CYCLE_1 to support COREXY... \c"
 sed -i -e 's/^#define HOMING_CYCLE_1/\/\/ #define HOMING_CYCLE_1/' "$FILE"
 check_return $?
 
-# Change: SPINDLE_MAX_RPM to laser resolution
+# Change: SPINDLE_MAX_RPM to laser (2500 mW) resolution
 echo "        Changing SPINDLE_MAX_RPM to laser resolution... \c"
-sed -i -e 's/^#define SPINDLE_MAX_RPM 1000.0/#define SPINDLE_MAX_RPM 256.0/' "$FILE"
+sed -i -e 's/^#define SPINDLE_MAX_RPM 1000.0/#define SPINDLE_MAX_RPM 2500.0/' "$FILE"
 check_return $?
 
 # Invoke xc

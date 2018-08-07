@@ -58,7 +58,7 @@ $13=0  ; Report inches, boolean
 
 ; Physics
 $20=0  ; Soft limits, boolean
-$21=1  ; Hard limits, boolean
+$21=0  ; Hard limits, boolean
 $22=0  ; Homing cycle, boolean
 
 ; Homing

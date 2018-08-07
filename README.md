@@ -217,8 +217,8 @@ List of Supported G-Codes in Grbl v1.1:
 #### Spindle
 Spindle are controled using PWM PIN 11 to drive the tool.
 
-Use the command Sxxx (xxx between 0 and 255) to:
-  - Set laser intensity.
+Use the command Sxxx (xxx between 0 and 2500) to:
+  - Set laser (2500 mW) intensity.
   - Rotate servo between 0 and 180 degrees.
 
 ##### M3
