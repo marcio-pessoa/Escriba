@@ -45,24 +45,26 @@
   - (Video) Demonstration - Foarm cut
 
 - 'TO DO':
+  - (Electronics) Driver fan - Install
   - (Software) Driver fan - Add start fan and stop fan commands to template
   - (Software) Driver fan - How to control
   - (Software) Driver fan - How to sense
   - (Software) Driver fan - Test commands (M7, M8, M9)
-  - (Mechanics) Pen holder - Design
-  - (Mechanics) Pen holder - Design add servo motor
 
 - 'DOING':
   - (Electronics) Driver fan - Build fan driver
-  - (Electronics) Driver fan - Install
+  - (Mechanics) Pen holder - Design
+  - (Mechanics) Pen holder - Design add M6 screw hole
+  - (Mechanics) Pen holder - Design add servo motor
+  - (Mechanics) Pen holder - Design angle selection
 
 - 'TESTING':
   - (Mechanics) y axis - Counterpoise - Design
   - (Mechanics) y axis - Counterpoise - Build
   - (Mechanics) y axis - Counterpoise - Install
-  - (Mechanics) y axis - Improve back support
 
 - 'DONE':
+  - (Mechanics) y axis - Improve back support
   - (Mechanics) Quick release clamp - Install
   - (Mechanics) Quick release plate for laser module - Install
   - (Mechanics) Change x axis road for steel tube
