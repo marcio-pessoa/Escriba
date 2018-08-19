@@ -54,7 +54,6 @@
 - 'DOING':
   - (Electronics) Driver fan - Build fan driver
   - (Mechanics) Pen holder - Design
-  - (Mechanics) Pen holder - Design add M6 screw hole
   - (Mechanics) Pen holder - Design add servo motor
   - (Mechanics) Pen holder - Design angle selection
 
@@ -64,6 +63,7 @@
   - (Mechanics) y axis - Counterpoise - Install
 
 - 'DONE':
+  - (Mechanics) Pen holder - Design add M6 screw hole
   - (Mechanics) y axis - Improve back support
   - (Mechanics) Quick release clamp - Install
   - (Mechanics) Quick release plate for laser module - Install
