@@ -1,6 +1,18 @@
 # BOM
 Escriba Mark I - Light CNC, Bill of materials
 
+## To buy
+| Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
+|-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
+|     1 | Pen_holder_parts     | Pending        | Pending    | Pending    | each |        |       |        |
+|    10 | Elastic              | Pending        | Pending    | Pending    | each |        |       |        |
+|     1 | Servo_9g             | Pending        | Pending    | Pending    | each |   8.50 |  0.53 |   9.03 |
+
+## Delivering
+| Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
+|-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
+
+## Purchased
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
 |     1 | Arduino_Uno_R3       |  1461804416006 | 2016-10-09 | 2016-11-29 | each |   7.82 |  0.49 |   8.31 |
@@ -56,9 +68,6 @@ Escriba Mark I - Light CNC, Bill of materials
 |     1 | Quick_release_plate  |   272048307553 | 2018-04-09 | 2018-06-20 | each |   2.91 |  0.11 |   3.02 |
 |     2 | LM8UU                |   370982181382 | 2017-12-09 | 2018-04-11 | each |   1.08 |  0.07 |   1.15 |
 |   500 | Steel_tube_8x6mm     |   390972746654 | 2018-04-12 | 2018-05-28 | mm   |   8.33 |  0.49 |   8.82 |
-|     1 | Pen_holder_parts     | Pending        | Pending    | Pending    | each |        |       |        |
-|    10 | Elastic              | Pending        | Pending    | Pending    | each |        |       |        |
-|     1 | Servo_9g             |   173301339438 | 2018-07-24 | Pending    | each |   8.50 |  0.53 |   9.03 |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
