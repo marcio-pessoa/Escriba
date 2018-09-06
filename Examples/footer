@@ -1,3 +1,4 @@
 ; Footer
 G28  ; Go to home position
 M2  ; Program end
+M9  ; Turn off fan

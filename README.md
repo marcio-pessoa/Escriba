@@ -254,6 +254,12 @@ https://github.com/gnea/grbl/wiki/Grbl-v1.1-Jogging
 
 https://github.com/gnea/grbl/wiki/Grbl-v1.1-Configuration
 
+#### Fan
+
+##### M8
+
+##### M9
+
 # Tools
 
 ## Pen holder
