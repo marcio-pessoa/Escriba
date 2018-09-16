@@ -45,22 +45,22 @@
   - (Video) Demonstration - Foarm cut
 
 - 'TO DO':
+  - (Mechanics) Pen holder - Design add servo motor
+  - (Mechanics) Pen holder - Design
+  - (Mechanic) Outrigger Feet - Design
+
+- 'DOING':
+  - (Mechanics) Pen holder - Design angle selection
+
+- 'TESTING':
   - (Electronics) Driver fan - Install
+
+- 'DONE':
+  - (Electronics) Driver fan - Build fan driver
   - (Software) Driver fan - Add start fan and stop fan commands to template
   - (Software) Driver fan - How to control
   - (Software) Driver fan - How to sense
   - (Software) Driver fan - Test commands (M7, M8, M9)
-  - (Mechanic) Outrigger Feet - Design
-
-- 'DOING':
-  - (Mechanics) Pen holder - Design add servo motor
-  - (Mechanics) Pen holder - Design angle selection
-  - (Mechanics) Pen holder - Design
-
-- 'TESTING':
-  - (Electronics) Driver fan - Build fan driver
-
-- 'DONE':
   - (Mechanics) y axis - Counterpoise - Design
   - (Mechanics) y axis - Counterpoise - Build
   - (Mechanics) y axis - Counterpoise - Install
