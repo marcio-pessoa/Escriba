@@ -1,7 +1,7 @@
 ; default.gcode, Escriba Mark I - Light CNC, G-code default configuration file
 ; This program set defaults to Escriba.
 ;
-; Author: Márcio Pessoa <marcio.pessoa@sciemon.com>
+; Author: Márcio Pessoa <marcio.pessoa@gmail.com>
 ; Contributors: none
 ;
 ; Change log:
