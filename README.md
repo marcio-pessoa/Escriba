@@ -11,9 +11,9 @@
 ## Technical specifications
 
 Dimensions:
-- Width:  mm (calculated)
-- Height:  mm (calculated)
-- Depth:  mm (calculated)
+- Width:  mm
+- Height:  mm
+- Depth:  mm
 
 Mass:
 - Weight:  g (calculated)
