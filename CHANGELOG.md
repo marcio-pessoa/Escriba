@@ -4,6 +4,7 @@ Escriba Mark I - Light CNC, Change log
 ## [1.1g] - 2018-09-05
 ### Added
 - Fan.
+
 ### Changed
 - Uploaded: Grbl 1.1g.
 
