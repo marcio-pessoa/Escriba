@@ -129,6 +129,7 @@ Technical specifications:
 ### Fan driver
 ![Fan driver](Pictures/fan_driver.png)
 
+[Fan driver schematic](fan_driver.sch) file (gEDA - GPL Electronic Design Automation).
 
 [Main page]
 
