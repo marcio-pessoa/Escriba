@@ -23,7 +23,7 @@ Technical specifications:
 - PWM: Yes
 
 <!---
-#### Draw
+#### Operation
  Material  | Power (mW) | Feed (ms)
 -----------|------------|-----------
  Paper     |        980 |      1000

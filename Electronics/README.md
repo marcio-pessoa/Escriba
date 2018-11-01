@@ -12,7 +12,7 @@ Technical specifications:
 
 ### Arduino
 Technical specifications:
-- [Arduino Uno] R3
+- Model: [Arduino Uno] R3
 
 #### Diagram
                                  .-----.

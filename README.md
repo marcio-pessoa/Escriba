@@ -14,7 +14,7 @@ The bidimentional work area:
 All notable changes to this project will be documented in this [Change log](CHANGELOG.md).
 
 ## Mechanics
-This project uses an original mech made from scrach with the following goals:
+This project uses an original mech made from scratch with the following goals:
 - Reliable
 - Precise
 - Robust
