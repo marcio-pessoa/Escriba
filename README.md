@@ -4,6 +4,8 @@
 
 Escriba Mark I is a Light CNC machine, capable to use tools like Pens, Laser other kind of stuff.
 
+![Escriba](Documents/Pictures/escriba.png)
+
 <!---
 The bidimentional work area:
 - Width: ??? mm
