@@ -12,6 +12,9 @@ The bidimentional work area:
 - Height: ??? mm
 --->
 
+## Videos
+Watch this projects videos on [YouTube Playlist].
+
 ## Changes
 All notable changes to this project will be documented in this [Change log](CHANGELOG.md).
 
@@ -37,7 +40,5 @@ Nice [Tools](Tools/README.md) can be used with!
 ## BOM - Bill of materials
 If you want to build your own, take a look at [Bill of materials](BOM.md).
 
-## Project Kanban
-This project is always under enhancements. I use [Kanban](KANBAN.md) to control project evolution.
-
 ---
+[YouTube Playlist]: https://www.youtube.com/watch?v=fAPBSzcztSE&list=PLs1JZHyVhlZUeYavBQfkzo5e3CdledMW0
