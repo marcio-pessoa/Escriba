@@ -1,16 +1,6 @@
 # BOM
 Escriba Mark I - Light CNC, Bill of materials
 
-## To buy
-| Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
-|-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
-|     1 | Pen_holder_parts     | Pending        | Pending    | Pending    | each |   0.00 |  0.00 |   0.00 |
-|    10 | Elastic              | Pending        | Pending    | Pending    | each |   0.00 |  0.00 |   0.00 |
-
-## Delivering
-| Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
-|-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
-
 ## Purchased
 | Quant | Description          | ID             | Bought     | Delivered  | Unit | Charge | Taxes |   Cost |
 |-------|----------------------|----------------|------------|------------|------|--------|-------|--------|
@@ -68,6 +58,8 @@ Escriba Mark I - Light CNC, Bill of materials
 |     2 | LM8UU                |   370982181382 | 2017-12-09 | 2018-04-11 | each |   1.08 |  0.07 |   1.15 |
 |   500 | Steel_tube_8x6mm     |   390972746654 | 2018-04-12 | 2018-05-28 | mm   |   8.33 |  0.49 |   8.82 |
 |     1 | Servo_9g             |   142920875158 | 2018-09-05 | 2018-10-23 | each |   2.08 |  0.12 |   2.20 |
+|     1 | Pen_holder_parts     | Pending        | Pending    | Pending    | each |   0.00 |  0.00 |   0.00 |
+|    10 | Elastic              | Pending        | Pending    | Pending    | each |   0.00 |  0.00 |   0.00 |
 
 Currency: USD<br/>
 International IOF: 6.38%<br/>
