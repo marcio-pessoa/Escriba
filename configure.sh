@@ -40,10 +40,10 @@ check_return() {
 get_updates() {
   file=$1
   echo "Restoring original state to:"
-  echo "    $file... \c"
+  echo "    $file... \\c"
   git checkout -- "$file"  # Restore original file
   check_return $?
-  echo "Getting firmware updates to $WORKDIR $(git show-branch)... \c"
+  echo "Getting firmware updates to $WORKDIR $(git show-branch)... \\c"
   git pull  # Get updates from Github
 }
 
@@ -58,22 +58,22 @@ echo "Applying customization to:"
 echo "    $FILE..."
 
 # Enable: COREXY
-echo "        Enabling COREXY... \c"
+echo "        Enabling COREXY... \\c"
 sed -i -e 's/^\/\/ #define COREXY/#define COREXY/' "$FILE"
 check_return $?
 
 # Change: HOMING_CYCLE_0 to support COREXY
-echo "        Changing HOMING_CYCLE_0 to support COREXY... \c"
+echo "        Changing HOMING_CYCLE_0 to support COREXY... \\c"
 sed -i -e 's/^#define HOMING_CYCLE_0 (1<<Z_AXIS)/#define HOMING_CYCLE_0 ((1<<X_AXIS)|(1<<Y_AXIS))/' "$FILE"
 check_return $?
 
 # Disable: HOMING_CYCLE_1 to support COREXY
-echo "        Disabling HOMING_CYCLE_1 to support COREXY... \c"
+echo "        Disabling HOMING_CYCLE_1 to support COREXY... \\c"
 sed -i -e 's/^#define HOMING_CYCLE_1/\/\/ #define HOMING_CYCLE_1/' "$FILE"
 check_return $?
 
 # Change: SPINDLE_MAX_RPM to laser (2500 mW) resolution
-echo "        Changing SPINDLE_MAX_RPM to laser resolution... \c"
+echo "        Changing SPINDLE_MAX_RPM to laser resolution... \\c"
 sed -i -e 's/^#define SPINDLE_MAX_RPM 1000.0/#define SPINDLE_MAX_RPM 2500.0/' "$FILE"
 check_return $?
 
