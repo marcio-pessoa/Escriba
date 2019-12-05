@@ -12,6 +12,11 @@ The bidimentional work area:
 - Height: ??? mm
 --->
 
+## Cloning
+```
+git clone --recurse-submodules https://github.com/marcio-pessoa/Escriba.git
+```
+
 ## Videos
 Watch this projects videos on [YouTube Playlist].
 
