@@ -81,11 +81,11 @@ check_return $?
 echo "Starting xC (Axes Controller)..."
 case "$action" in
   'verify')
-    xc "$action" --id escriba --verbosity=3
+    ma "$action" --id escriba --verbosity=3
     exit $?
     ;;
   'upload')
-    xc "$action" --id escriba --verbosity=3
+    ma "$action" --id escriba --verbosity=3
     exit $?
     ;;
   *)
